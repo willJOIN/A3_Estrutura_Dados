@@ -9,7 +9,7 @@ class Vertice:
 
   def add_adjacente(self, adjacente):
     aresta = Aresta(self, adjacente)
-    
+
     if adjacente not in self.adjacentes:
       self.adjacentes.append(aresta)
     else:
@@ -17,8 +17,10 @@ class Vertice:
 
   def remove_adjacente(self, adjacente):
     if adjacente in self.adjacentes:
-      if adjacente.peso >= 0: adjacente.minusPeso()
+      aresta = self.adjacentes[self.adjacentes.index(adjacente)]
+      
+      if aresta.peso >= 0: aresta.minusPeso()
       else: self.adjacentes.remove(aresta)
 
-  def find_adjacente(self, adjacente):
+  def find_adjacente(self, adjacente:Aresta):
     return adjacente in self.adjacentes

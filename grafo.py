@@ -23,7 +23,7 @@ class Grafo():
       if vertice.id == vertice_y:
         vertice.add_adjacente(vertice_x)
 
-  def remove_aresta(self, vertice_x:int, vertice_y:int) -> None:
+  def remove_aresta(self, vertice_x:Vertice, vertice_y:Vertice) -> None:
     for vertice in self.lista_vertices:
       if vertice.id == vertice_x:
         vertice.remove_adjacente(vertice_y)
