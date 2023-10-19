@@ -1,6 +1,5 @@
 from aresta import Aresta
 
-
 class Vertice:
 
   def __init__(self, id):
@@ -20,7 +19,12 @@ class Vertice:
       aresta = self.adjacentes[self.adjacentes.index(adjacente)]
       
       if aresta.peso >= 0: aresta.minusPeso()
-      else: self.adjacentes.remove(aresta)
+
+  def delete_adjacente(self, adjacente): 
+    if adjacente in self.adjacentes:
+      aresta = self.adjacentes[self.adjacentes.index(adjacente)]
+  
+      self.adjacentes.remove(aresta) 
 
   def find_adjacente(self, adjacente:Aresta):
     return adjacente in self.adjacentes

@@ -1,9 +1,6 @@
-from vertice import Vertice
-
-
 class Aresta():
 
-  def __init__(self, x: Vertice, y: Vertice):
+  def __init__(self, x, y):
     self.x = x
     self.y = y
     self.peso = 1
