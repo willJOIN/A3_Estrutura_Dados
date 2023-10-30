@@ -6,7 +6,7 @@ import os
 class Grafo():
 
   def __init__(self) -> None:
-    self.lista_vertices = []
+    self.lista_vertices:list[Vertice] = []
     self.num_vertices = 0
 
   def __str__(self) -> str:
@@ -18,14 +18,18 @@ class Grafo():
     final = ""
 
     for vertice in self.lista_vertices:
-      final += f"Vertice {vertice.id} -> {vertice.adjacentes if len(vertice.adjacentes) > 0 else '-- SEM ARESTAS --'}\n"
+      final += str(vertice)
 
     return final
 
-  def add_vertice(self, valor: int) -> None:
+  def add_vertice(self, valor: int) -> Vertice:
     vertice = Vertice(valor)
-    self.lista_vertices.append(vertice)
-    self.num_vertices += 1
+
+    if vertice not in self.lista_vertices:
+      self.lista_vertices.append(vertice)
+      self.num_vertices += 1
+
+    return vertice
 
   def remove_vertice(self, vertice_x: int) -> None:
     for vertice in self.lista_vertices:
@@ -36,17 +40,18 @@ class Grafo():
         vertice.delete_adjacente(vertice_x)
 
   def add_aresta(self, vertice_x: Vertice, vertice_y: Vertice) -> None:
+
     for vertice in self.lista_vertices:
-      if vertice.id == vertice_x:
+      if vertice.id == vertice_x.id:
         vertice.add_adjacente(vertice_y)
-      if vertice.id == vertice_y:
+      if vertice.id == vertice_y.id:
         vertice.add_adjacente(vertice_x)
 
   def remove_aresta(self, vertice_x: Vertice, vertice_y: Vertice) -> None:
     for vertice in self.lista_vertices:
-      if vertice.id == vertice_x:
+      if vertice.id == vertice_x.id:
         vertice.remove_adjacente(vertice_y)
-      if vertice.id == vertice_y:
+      if vertice.id == vertice_y.id:
         vertice.remove_adjacente(vertice_x)
 
   def find_aresta(self, vertice_x: Vertice, vertice_y: Vertice) -> bool:
