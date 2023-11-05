@@ -1,6 +1,13 @@
 # A3 Estrutura de Dados
 
-#### Descrição:
+#### Grupo 7:
+Vinicius Maia Azevedo de Oliveira - RA: 32323193
+Rhuan Santos de Araujo - RA: 823212249
+Victor Henrique Almada Tavares - RA: 323210144
+Paulo Henrique Chi - RA: 8222242190
+William Menghi Hirano - RA: 822165217
+
+## Descrição:
 
 Este projeto analisa textos, tokenizando palavras e trazendo controle ao usuário via CLI das que ele considera relevantes ou não e, por fim, retorna uma análise de precisão em porcentagem, dentre outras estatísticas.
 
