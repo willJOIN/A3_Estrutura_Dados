@@ -1,7 +1,6 @@
 from vertice import Vertice
 from aresta import Aresta
-import os
-
+from util import limpar_terminal
 
 class Grafo():
 
@@ -12,7 +11,7 @@ class Grafo():
   def __str__(self) -> str:
 
     if len(self.lista_vertices) == 0:
-      os.system("cls")
+      limpar_terminal()
       return "----- GRAFO VAZIO -----"
 
     final = ""
@@ -22,7 +21,7 @@ class Grafo():
 
     return final
 
-  def add_vertice(self, valor: int) -> Vertice:
+  def add_vertice(self, valor: str) -> Vertice:
     vertice = Vertice(valor)
 
     if vertice not in self.lista_vertices:
@@ -31,16 +30,22 @@ class Grafo():
 
     return vertice
 
-  def remove_vertice(self, vertice_x: int) -> None:
-    for vertice in self.lista_vertices:
-      if vertice.id == vertice_x:
+  def remove_vertice(self, vertice_x: str) -> None:
+    vertice_remover = Vertice(vertice_x) 
+    
+    for vertice in self.lista_vertices.copy():
+      if vertice == vertice_remover:
         self.lista_vertices.remove(vertice)
         self.num_vertices -= 1
       else:
-        vertice.delete_adjacente(vertice_x)
+        # TODO iterar arestas de vertice pra deletar arestas + vertice
+        arestas = vertice.adjacentes
+        for idx in range(len(arestas)):
+          if arestas[idx].getVerticeFinal() == vertice_remover:
+            vertice.adjacentes.remove(arestas[idx])
 
   def add_aresta(self, vertice_x: Vertice, vertice_y: Vertice) -> None:
-
+    
     for vertice in self.lista_vertices:
       if vertice.id == vertice_x.id:
         vertice.add_adjacente(vertice_y)
@@ -60,4 +65,10 @@ class Grafo():
     for vertice in self.lista_vertices:
       if vertice.find_adjacente(aresta): return True
 
+    return False
+
+  def find_vertice(self, vertice_id):
+    for vertice in self.lista_vertices:
+      if(vertice.id == vertice_id):
+        return vertice
     return False

@@ -22,3 +22,6 @@ class Aresta:
   def minusPeso(self) -> None:
       if self.peso != 0:
           self.peso -= 1
+
+  def getVerticeFinal(self):
+      return self.y

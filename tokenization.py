@@ -1,11 +1,11 @@
 import util
 import re
+from grafo import Grafo
 
 class Topicos:
 
   def __init__(self, textos: list) -> None:
     self.textos = textos
-    self.topicos_tokens = {}
     self.gerar()
   
   def __str__(self) -> str:
@@ -27,30 +27,30 @@ class Topicos:
   
     return re.split(" +", linha_temp)
   
+# função que adiciona o texto tratado no grafo
+  def adicionar_grafo(self,lista_palavras, graph: Grafo):
+    for index in range(1,len(lista_palavras)):
+      # se palavra está no grafo:
+      if not graph.find_vertice(lista_palavras[index - 1]):
+        # se for a primeira palavra adiciona-la no grafo
+        if index - 1 == 0:
+          graph.add_vertice(lista_palavras[index - 1])
+        # se nao for a primeira palavra da lista
+        else:
+          # adicionar a palavra no grafo e fazer uma conexão de aresta com a última palavra
+          graph.add_vertice(lista_palavras[index - 1])
+          graph.add_aresta(graph.find_vertice(lista_palavras[index - 1]),graph.find_vertice(lista_palavras[index]))
+      # se a palavra nao está no grafo
+      else:
+        graph.add_aresta(lista_palavras[index - 1],lista_palavras[index])
+
   def gerar(self):
-  
-    print("Encontrando os tópicos mais relevantes dos textos...")
-  
-    for texto in self.textos:
-      try:
-        self.topicos_tokens[texto] = self.gerar_mais_relevantes_texto(texto)
-      except Exception:
-        continue
-  
-  def gerar_mais_relevantes_texto(self, nome_arquivo_texto: str):
-    tokens = {}
-  
-    with open(f"textos/{nome_arquivo_texto}", "r", encoding="ISO-8859-1") as f:
-      # le o arquivo e armazena em linha
-      for line in f.readlines():
-        for token in self.execucao_linha(line):
-          if tokens.get(token):
-            tokens[token] += 1
-          else:
-            tokens[token] = 1
-  
-      # Ordena tokens em ordem decrescente de frequencia
-      sorted_tokens = dict(
-          sorted(tokens.items(), key=lambda item: item[1], reverse=True))
-  
-    return list(sorted_tokens.keys())[:10]
+    for nome_texto in self.textos:
+      grafo = Grafo()
+    
+      with open(f"textos/{nome_texto}", "r", encoding="ISO-8859-1") as f:
+        # le o arquivo e armazena em linha
+        for line in f.readlines():
+          self.adicionar_grafo(self.execucao_linha(line), grafo)
+    
+    print(grafo)
