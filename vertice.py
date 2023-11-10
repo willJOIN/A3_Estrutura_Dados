@@ -3,6 +3,7 @@ from aresta import Aresta
 
 class Vertice:
     def __init__(self, id):
+        self.peso = 1
         self.id = id
         self.adjacentes: list[Aresta] = []
 
@@ -41,3 +42,6 @@ class Vertice:
 
     def find_adjacente(self, adjacente: Aresta):
         return adjacente in self.adjacentes
+    
+    def increment_peso(self) -> None:
+        self.peso += 1

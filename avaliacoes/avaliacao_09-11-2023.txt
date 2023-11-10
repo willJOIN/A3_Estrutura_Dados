@@ -1,0 +1,24 @@
+------------------------LOG DE AVALIAÇÃO------------------------
+
+Avaliação feita na data: 09-11-2023
+
+ESTATÍSTICAS FINAIS:
+
+-    Total de documentos avaliados: 1
+-    Total de tópicos relevantes corretamente identificados: 9
+-    Total de tópicos relevantes incorretamente identificados: 0
+-    Total de tópicos não relevantes corretamente identificados: 1
+-    Total de tópicos não relevantes incorretamente identificados: 0
+-    Precisão: 90.00 %
+
+ARQUIVOS AVALIADOS:
+
+======== INICIO -> arq_1.txt ========
+
+=    Tópicos encontrados: [('MUDANCA', 4), ('SIMULACAO', 4), ('CENARIOS', 7), ('TURISMO', 10), ('MAPEAMENTO', 5), ('LUCC', 5), ('SUSTENTAVEL', 11), ('REGIOES', 4), ('DESENVOLVIMENTO', 6)]
+=    Tópicos relevantes: [('MUDANCA', 4), ('SIMULACAO', 4), ('CENARIOS', 7), ('TURISMO', 10), ('MAPEAMENTO', 5), ('LUCC', 5), ('SUSTENTAVEL', 11), ('REGIOES', 4), ('DESENVOLVIMENTO', 6)]
+=    Tópicos não relevantes: [('USO', 4)]
+
+========= FIM -> arq_1.txt ==========
+
+----------------------------------------------------------------

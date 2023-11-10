@@ -27,6 +27,9 @@ class Grafo():
     if vertice not in self.lista_vertices:
       self.lista_vertices.append(vertice)
       self.num_vertices += 1
+    else:
+      idx = self.lista_vertices.index(vertice)
+      self.lista_vertices[idx].increment_peso()
 
     return vertice
 
@@ -71,4 +74,27 @@ class Grafo():
     for vertice in self.lista_vertices:
       if(vertice.id == vertice_id):
         return vertice
-    return False
+
+  # devolve uma lista dos 10 vertices mais pesados do grafo
+  def get_lista_topicos_importantes(self):
+    lista_topicos_importantes = []
+    vertices = self.lista_vertices
+
+    for idx in range(len(vertices)):
+      lista_topicos_importantes.append(vertices[idx])
+
+    palavras_dict = {}
+
+    for vertice in lista_topicos_importantes:
+      arestas = sorted(vertice.adjacentes, key=lambda item : item.peso ,reverse=True)
+      
+      for aresta in arestas:
+        if palavras_dict.get(aresta.y.id):
+          palavras_dict[aresta.y.id] += aresta.peso
+        else:
+          palavras_dict[aresta.y.id] = aresta.peso
+    
+    
+    lista = sorted(palavras_dict.items(), key= lambda item : item[1] ,reverse=True)[:10]
+
+    return lista

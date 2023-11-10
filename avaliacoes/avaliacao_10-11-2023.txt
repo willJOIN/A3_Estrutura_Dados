@@ -1,0 +1,80 @@
+-----------------------------LOG DE AVALIAÇÃO-----------------------------
+
+Avaliação feita na data: 10/11/2023
+
+ESTATÍSTICAS FINAIS:
+
+-    Total de documentos avaliados: 2
+-    Total de tópicos relevantes corretamente identificados: 20
+-    Total de tópicos relevantes incorretamente identificados: 0
+-    Total de tópicos não relevantes corretamente identificados: 0
+-    Total de tópicos não relevantes incorretamente identificados: 0
+-    Precisão: 100.00 %
+
+ARQUIVOS AVALIADOS:
+
+======================== INICIO -> arq_1.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SUSTENTAVEL', 11),
+                             ('TURISMO', 10),
+                             ('CENARIOS', 7),
+                             ('DESENVOLVIMENTO', 6),
+                             ('LUCC', 5),
+                             ('MAPEAMENTO', 5),
+                             ('SIMULACAO', 4),
+                             ('MUDANCA', 4),
+                             ('USO', 4),
+                             ('REGIOES', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SUSTENTAVEL', 11),
+                            ('TURISMO', 10),
+                            ('CENARIOS', 7),
+                            ('DESENVOLVIMENTO', 6),
+                            ('LUCC', 5),
+                            ('MAPEAMENTO', 5),
+                            ('SIMULACAO', 4),
+                            ('MUDANCA', 4),
+                            ('USO', 4),
+                            ('REGIOES', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_1.txt ==========================
+
+======================== INICIO -> arq_2.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SOJA', 11),
+                             ('PRODUCAO', 11),
+                             ('BRASILEIRA', 10),
+                             ('MUDANCAS', 10),
+                             ('CLIMATICAS', 8),
+                             ('MILHOES', 8),
+                             ('PERDAS', 8),
+                             ('CE', 8),
+                             ('CLIMA', 7),
+                             ('DESMATAMENTO', 7),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SOJA', 11),
+                            ('PRODUCAO', 11),
+                            ('BRASILEIRA', 10),
+                            ('MUDANCAS', 10),
+                            ('CLIMATICAS', 8),
+                            ('MILHOES', 8),
+                            ('PERDAS', 8),
+                            ('CE', 8),
+                            ('CLIMA', 7),
+                            ('DESMATAMENTO', 7),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_2.txt ==========================
+
+--------------------------------------------------------------------------
