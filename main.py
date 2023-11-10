@@ -50,5 +50,4 @@ if __name__ == "__main__":
   topicos = Topicos(textos) 
 
   print(topicos)
-  #avaliar(topicos.arquivos_topicos)
-  
+  avaliar(topicos.arquivos_topicos)

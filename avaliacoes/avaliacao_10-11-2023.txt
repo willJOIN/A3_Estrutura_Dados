@@ -4,8 +4,8 @@ Avaliação feita na data: 10/11/2023
 
 ESTATÍSTICAS FINAIS:
 
--    Total de documentos avaliados: 2
--    Total de tópicos relevantes corretamente identificados: 20
+-    Total de documentos avaliados: 92
+-    Total de tópicos relevantes corretamente identificados: 920
 -    Total de tópicos relevantes incorretamente identificados: 0
 -    Total de tópicos não relevantes corretamente identificados: 0
 -    Total de tópicos não relevantes incorretamente identificados: 0
@@ -23,8 +23,8 @@ ARQUIVOS AVALIADOS:
                              ('LUCC', 5),
                              ('MAPEAMENTO', 5),
                              ('SIMULACAO', 4),
-                             ('MUDANCA', 4),
                              ('USO', 4),
+                             ('MUDANCA', 4),
                              ('REGIOES', 4),
                           ]
 
@@ -36,8 +36,8 @@ ARQUIVOS AVALIADOS:
                             ('LUCC', 5),
                             ('MAPEAMENTO', 5),
                             ('SIMULACAO', 4),
-                            ('MUDANCA', 4),
                             ('USO', 4),
+                            ('MUDANCA', 4),
                             ('REGIOES', 4),
                          ]
 
@@ -50,31 +50,2911 @@ ARQUIVOS AVALIADOS:
 =    Tópicos encontrados: [ 
                              ('SOJA', 11),
                              ('PRODUCAO', 11),
-                             ('BRASILEIRA', 10),
                              ('MUDANCAS', 10),
-                             ('CLIMATICAS', 8),
+                             ('BRASILEIRA', 9),
                              ('MILHOES', 8),
+                             ('CLIMATICAS', 8),
                              ('PERDAS', 8),
-                             ('CE', 8),
-                             ('CLIMA', 7),
                              ('DESMATAMENTO', 7),
+                             ('\x98US', 7),
+                             ('ASSOCIADAS', 6),
                           ]
 
 =    Tópicos relevantes: [ 
                             ('SOJA', 11),
                             ('PRODUCAO', 11),
-                            ('BRASILEIRA', 10),
                             ('MUDANCAS', 10),
-                            ('CLIMATICAS', 8),
+                            ('BRASILEIRA', 9),
                             ('MILHOES', 8),
+                            ('CLIMATICAS', 8),
                             ('PERDAS', 8),
-                            ('CE', 8),
-                            ('CLIMA', 7),
                             ('DESMATAMENTO', 7),
+                            ('\x98US', 7),
+                            ('ASSOCIADAS', 6),
                          ]
 
 =    Tópicos não relevantes: [ LISTA VAZIA ]
 
 ========================= FIM -> arq_2.txt ==========================
+
+======================== INICIO -> arq_3.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('VAZAO', 12),
+                             ('MUDANCAS', 9),
+                             ('CENARIOS', 7),
+                             ('CLIMATICAS', 7),
+                             ('NOVA', 7),
+                             ('RESERVATORIO', 7),
+                             ('BRNP', 6),
+                             ('AUMENTO', 5),
+                             ('PONTE', 5),
+                             ('AVALIACAO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('VAZAO', 12),
+                            ('MUDANCAS', 9),
+                            ('CENARIOS', 7),
+                            ('CLIMATICAS', 7),
+                            ('NOVA', 7),
+                            ('RESERVATORIO', 7),
+                            ('BRNP', 6),
+                            ('AUMENTO', 5),
+                            ('PONTE', 5),
+                            ('AVALIACAO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_3.txt ==========================
+
+======================== INICIO -> arq_4.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('ESTACOES', 14),
+                             ('METRO', 9),
+                             ('USO', 8),
+                             ('BELO', 7),
+                             ('TRANSPORTE', 7),
+                             ('OCUPACAO', 7),
+                             ('LINHA', 6),
+                             ('DINAMICA', 5),
+                             ('ENTORNO', 5),
+                             ('URBANISTICA', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('ESTACOES', 14),
+                            ('METRO', 9),
+                            ('USO', 8),
+                            ('BELO', 7),
+                            ('TRANSPORTE', 7),
+                            ('OCUPACAO', 7),
+                            ('LINHA', 6),
+                            ('DINAMICA', 5),
+                            ('ENTORNO', 5),
+                            ('URBANISTICA', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_4.txt ==========================
+
+======================== INICIO -> arq_5.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('METRICAS', 11),
+                             ('DISTRITO', 10),
+                             ('BELO', 10),
+                             ('PAISAGEM', 7),
+                             ('DADOS', 6),
+                             ('HORIZONTE', 6),
+                             ('ANALISES', 6),
+                             ('ACURACIA', 6),
+                             ('TEMATICA', 6),
+                             ('URBANISTICAS', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('METRICAS', 11),
+                            ('DISTRITO', 10),
+                            ('BELO', 10),
+                            ('PAISAGEM', 7),
+                            ('DADOS', 6),
+                            ('HORIZONTE', 6),
+                            ('ANALISES', 6),
+                            ('ACURACIA', 6),
+                            ('TEMATICA', 6),
+                            ('URBANISTICAS', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_5.txt ==========================
+
+======================== INICIO -> arq_6.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('ESTRATEGIAS', 10),
+                             ('EJE', 6),
+                             ('VALORIZACAO', 6),
+                             ('PROCESSO', 5),
+                             ('PAISAGEM', 5),
+                             ('USO', 4),
+                             ('CENARIOS', 4),
+                             ('CAFETERO', 4),
+                             ('EXPLORA', 4),
+                             ('POSSIVEIS', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('ESTRATEGIAS', 10),
+                            ('EJE', 6),
+                            ('VALORIZACAO', 6),
+                            ('PROCESSO', 5),
+                            ('PAISAGEM', 5),
+                            ('USO', 4),
+                            ('CENARIOS', 4),
+                            ('CAFETERO', 4),
+                            ('EXPLORA', 4),
+                            ('POSSIVEIS', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_6.txt ==========================
+
+======================== INICIO -> arq_7.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('USO', 14),
+                             ('COBERTURA', 9),
+                             ('AMBIENTAL', 8),
+                             ('CONSERVACAO', 6),
+                             ('PRESERVACAO', 6),
+                             ('OCORRENCIA', 6),
+                             ('RIO', 6),
+                             ('DESENVOLVIMENTO', 5),
+                             ('AREAS', 5),
+                             ('TERRA', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('USO', 14),
+                            ('COBERTURA', 9),
+                            ('AMBIENTAL', 8),
+                            ('CONSERVACAO', 6),
+                            ('PRESERVACAO', 6),
+                            ('OCORRENCIA', 6),
+                            ('RIO', 6),
+                            ('DESENVOLVIMENTO', 5),
+                            ('AREAS', 5),
+                            ('TERRA', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_7.txt ==========================
+
+======================== INICIO -> arq_8.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('POTENCIAL', 9),
+                             ('AREAS', 6),
+                             ('AGROTURISTICO', 6),
+                             ('INFORMACOES', 5),
+                             ('MAIOR', 4),
+                             ('NORTE', 4),
+                             ('POBREZA', 4),
+                             ('DEL', 4),
+                             ('SAN', 4),
+                             ('RURAIS', 3),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('POTENCIAL', 9),
+                            ('AREAS', 6),
+                            ('AGROTURISTICO', 6),
+                            ('INFORMACOES', 5),
+                            ('MAIOR', 4),
+                            ('NORTE', 4),
+                            ('POBREZA', 4),
+                            ('DEL', 4),
+                            ('SAN', 4),
+                            ('RURAIS', 3),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_8.txt ==========================
+
+======================== INICIO -> arq_9.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('VERDES', 15),
+                             ('TELHADOS', 14),
+                             ('PARQUES', 10),
+                             ('PAVIMENTOS', 8),
+                             ('TECNOLOGIAS', 8),
+                             ('LINEARES', 8),
+                             ('VAZAO', 8),
+                             ('VOLUME', 8),
+                             ('MODELAGEM', 7),
+                             ('PICO', 7),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('VERDES', 15),
+                            ('TELHADOS', 14),
+                            ('PARQUES', 10),
+                            ('PAVIMENTOS', 8),
+                            ('TECNOLOGIAS', 8),
+                            ('LINEARES', 8),
+                            ('VAZAO', 8),
+                            ('VOLUME', 8),
+                            ('MODELAGEM', 7),
+                            ('PICO', 7),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_9.txt ==========================
+
+======================== INICIO -> arq_10.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('RIACHOS', 29),
+                             ('FISICOS', 25),
+                             ('HABITATS', 24),
+                             ('PARAMETROS', 17),
+                             ('CONFIGURACAO', 16),
+                             ('MORFOMETRICOS', 12),
+                             ('CERRADO', 11),
+                             ('PAISAGEM', 8),
+                             ('MODELOS', 8),
+                             ('ASPECTOS', 8),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('RIACHOS', 29),
+                            ('FISICOS', 25),
+                            ('HABITATS', 24),
+                            ('PARAMETROS', 17),
+                            ('CONFIGURACAO', 16),
+                            ('MORFOMETRICOS', 12),
+                            ('CERRADO', 11),
+                            ('PAISAGEM', 8),
+                            ('MODELOS', 8),
+                            ('ASPECTOS', 8),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_10.txt ==========================
+
+======================== INICIO -> arq_11.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('M', 12),
+                             ('BARRAGEM', 9),
+                             ('RUPTURA', 8),
+                             ('RESOLUCAO', 6),
+                             ('MODELO', 5),
+                             ('DADOS', 5),
+                             ('VARIACAO', 5),
+                             ('ASSIM', 5),
+                             ('SIMULACAO', 5),
+                             ('CENARIOS', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('M', 12),
+                            ('BARRAGEM', 9),
+                            ('RUPTURA', 8),
+                            ('RESOLUCAO', 6),
+                            ('MODELO', 5),
+                            ('DADOS', 5),
+                            ('VARIACAO', 5),
+                            ('ASSIM', 5),
+                            ('SIMULACAO', 5),
+                            ('CENARIOS', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_11.txt ==========================
+
+======================== INICIO -> arq_12.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('MGKG', 20),
+                             ('SAO', 13),
+                             ('ELEMENTOS', 12),
+                             ('BACKGROUND', 10),
+                             ('GEOQUIMICO', 10),
+                             ('SEDIMENTOS', 8),
+                             ('CO', 7),
+                             ('PRINCIPAIS', 7),
+                             ('DEFINICAO', 7),
+                             ('VALORES', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('MGKG', 20),
+                            ('SAO', 13),
+                            ('ELEMENTOS', 12),
+                            ('BACKGROUND', 10),
+                            ('GEOQUIMICO', 10),
+                            ('SEDIMENTOS', 8),
+                            ('CO', 7),
+                            ('PRINCIPAIS', 7),
+                            ('DEFINICAO', 7),
+                            ('VALORES', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_12.txt ==========================
+
+======================== INICIO -> arq_13.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('USO', 16),
+                             ('COBERTURA', 16),
+                             ('TERRA', 11),
+                             ('KM²', 9),
+                             ('AREAS', 8),
+                             ('MUDANCA', 7),
+                             ('AMAZONIA', 6),
+                             ('CENARIO', 6),
+                             ('REGIAO', 5),
+                             ('MARANHENSE', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('USO', 16),
+                            ('COBERTURA', 16),
+                            ('TERRA', 11),
+                            ('KM²', 9),
+                            ('AREAS', 8),
+                            ('MUDANCA', 7),
+                            ('AMAZONIA', 6),
+                            ('CENARIO', 6),
+                            ('REGIAO', 5),
+                            ('MARANHENSE', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_13.txt ==========================
+
+======================== INICIO -> arq_14.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('CORREDORES', 9),
+                             ('ESPECIES', 9),
+                             ('ECOLOGICOS', 7),
+                             ('CAMINHOS', 7),
+                             ('MODELAGEM', 7),
+                             ('GRUPOS', 7),
+                             ('REGIAO', 6),
+                             ('MENOR', 6),
+                             ('ATRAVES', 6),
+                             ('CUSTO', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('CORREDORES', 9),
+                            ('ESPECIES', 9),
+                            ('ECOLOGICOS', 7),
+                            ('CAMINHOS', 7),
+                            ('MODELAGEM', 7),
+                            ('GRUPOS', 7),
+                            ('REGIAO', 6),
+                            ('MENOR', 6),
+                            ('ATRAVES', 6),
+                            ('CUSTO', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_14.txt ==========================
+
+======================== INICIO -> arq_15.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('AREAS', 17),
+                             ('CONSERVACAO', 13),
+                             ('UNIDADES', 9),
+                             ('PERDA', 7),
+                             ('IMPACTOS', 7),
+                             ('BIODIVERSIDADE', 7),
+                             ('VEGETACAO', 7),
+                             ('PERDAS', 6),
+                             ('INDIGENAS', 6),
+                             ('TERRAS', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('AREAS', 17),
+                            ('CONSERVACAO', 13),
+                            ('UNIDADES', 9),
+                            ('PERDA', 7),
+                            ('IMPACTOS', 7),
+                            ('BIODIVERSIDADE', 7),
+                            ('VEGETACAO', 7),
+                            ('PERDAS', 6),
+                            ('INDIGENAS', 6),
+                            ('TERRAS', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_15.txt ==========================
+
+======================== INICIO -> arq_16.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('DADOS', 16),
+                             ('USO', 12),
+                             ('COBERTURA', 11),
+                             ('SOLO', 9),
+                             ('ALTERACOES', 8),
+                             ('ESTACAO', 7),
+                             ('METEOROLOGICOS', 7),
+                             ('ANALISE', 7),
+                             ('AREA', 5),
+                             ('CONSIDERANDO', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('DADOS', 16),
+                            ('USO', 12),
+                            ('COBERTURA', 11),
+                            ('SOLO', 9),
+                            ('ALTERACOES', 8),
+                            ('ESTACAO', 7),
+                            ('METEOROLOGICOS', 7),
+                            ('ANALISE', 7),
+                            ('AREA', 5),
+                            ('CONSIDERANDO', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_16.txt ==========================
+
+======================== INICIO -> arq_17.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('USO', 15),
+                             ('ZONEAMENTO', 10),
+                             ('SOCIOAMBIENTAL', 8),
+                             ('COBERTURA', 8),
+                             ('AMBIENTAL', 6),
+                             ('ENTORNO', 6),
+                             ('POTENCIAL', 6),
+                             ('TERRA', 5),
+                             ('RESERVATORIO', 5),
+                             ('MUDANCAS', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('USO', 15),
+                            ('ZONEAMENTO', 10),
+                            ('SOCIOAMBIENTAL', 8),
+                            ('COBERTURA', 8),
+                            ('AMBIENTAL', 6),
+                            ('ENTORNO', 6),
+                            ('POTENCIAL', 6),
+                            ('TERRA', 5),
+                            ('RESERVATORIO', 5),
+                            ('MUDANCAS', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_17.txt ==========================
+
+======================== INICIO -> arq_18.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('COMPENSACAO', 10),
+                             ('AMBIENTAL', 8),
+                             ('PAISAGEM', 7),
+                             ('ONDE', 6),
+                             ('MATA', 6),
+                             ('INSTRUMENTO', 5),
+                             ('LICENCIAMENTO', 4),
+                             ('FRAGILIDADE', 4),
+                             ('GESTAO', 4),
+                             ('ATLANTICA', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('COMPENSACAO', 10),
+                            ('AMBIENTAL', 8),
+                            ('PAISAGEM', 7),
+                            ('ONDE', 6),
+                            ('MATA', 6),
+                            ('INSTRUMENTO', 5),
+                            ('LICENCIAMENTO', 4),
+                            ('FRAGILIDADE', 4),
+                            ('GESTAO', 4),
+                            ('ATLANTICA', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_18.txt ==========================
+
+======================== INICIO -> arq_19.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SECA', 17),
+                             ('INDICE', 12),
+                             ('ESTUDO', 9),
+                             ('REGIAO', 9),
+                             ('EVENTO', 9),
+                             ('MONITORAMENTO', 9),
+                             ('ANALISE', 7),
+                             ('ALEM', 7),
+                             ('SERRA', 6),
+                             ('RELACAO', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SECA', 17),
+                            ('INDICE', 12),
+                            ('ESTUDO', 9),
+                            ('REGIAO', 9),
+                            ('EVENTO', 9),
+                            ('MONITORAMENTO', 9),
+                            ('ANALISE', 7),
+                            ('ALEM', 7),
+                            ('SERRA', 6),
+                            ('RELACAO', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_19.txt ==========================
+
+======================== INICIO -> arq_20.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SOLAR', 6),
+                             ('PLACAS', 6),
+                             ('PRECISAO', 6),
+                             ('FOTOVOLTAICAS', 5),
+                             ('AQUECIMENTO', 5),
+                             ('MODELO', 5),
+                             ('REDES', 4),
+                             ('NEURAIS', 4),
+                             ('ROTULAGEM', 4),
+                             ('CIDADES', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SOLAR', 6),
+                            ('PLACAS', 6),
+                            ('PRECISAO', 6),
+                            ('FOTOVOLTAICAS', 5),
+                            ('AQUECIMENTO', 5),
+                            ('MODELO', 5),
+                            ('REDES', 4),
+                            ('NEURAIS', 4),
+                            ('ROTULAGEM', 4),
+                            ('CIDADES', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_20.txt ==========================
+
+======================== INICIO -> arq_21.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('POTENCIAL', 12),
+                             ('MODELO', 10),
+                             ('BACIA', 10),
+                             ('RECARGA', 5),
+                             ('METODO', 5),
+                             ('USO', 5),
+                             ('HIDROGRAFICA', 5),
+                             ('RIO', 5),
+                             ('AGUA', 4),
+                             ('AREAS', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('POTENCIAL', 12),
+                            ('MODELO', 10),
+                            ('BACIA', 10),
+                            ('RECARGA', 5),
+                            ('METODO', 5),
+                            ('USO', 5),
+                            ('HIDROGRAFICA', 5),
+                            ('RIO', 5),
+                            ('AGUA', 4),
+                            ('AREAS', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_21.txt ==========================
+
+======================== INICIO -> arq_22.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('PV', 22),
+                             ('POTENCIAL', 14),
+                             ('PRODUCAO', 11),
+                             ('GWHANO', 8),
+                             ('PRODUZIR', 7),
+                             ('TRANSICAO', 6),
+                             ('AREA', 5),
+                             ('CENTRALIZADA', 5),
+                             ('CENTRALIZADAS', 5),
+                             ('FONTES', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('PV', 22),
+                            ('POTENCIAL', 14),
+                            ('PRODUCAO', 11),
+                            ('GWHANO', 8),
+                            ('PRODUZIR', 7),
+                            ('TRANSICAO', 6),
+                            ('AREA', 5),
+                            ('CENTRALIZADA', 5),
+                            ('CENTRALIZADAS', 5),
+                            ('FONTES', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_22.txt ==========================
+
+======================== INICIO -> arq_23.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('ENERGIA', 8),
+                             ('SOLAR', 8),
+                             ('IRRADIACAO', 8),
+                             ('POTENCIAL', 7),
+                             ('MAPEAMENTO', 6),
+                             ('PARTIR', 5),
+                             ('BAIXO', 4),
+                             ('FROM', 4),
+                             ('TELHADOS', 4),
+                             ('ESTUDO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('ENERGIA', 8),
+                            ('SOLAR', 8),
+                            ('IRRADIACAO', 8),
+                            ('POTENCIAL', 7),
+                            ('MAPEAMENTO', 6),
+                            ('PARTIR', 5),
+                            ('BAIXO', 4),
+                            ('FROM', 4),
+                            ('TELHADOS', 4),
+                            ('ESTUDO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_23.txt ==========================
+
+======================== INICIO -> arq_24.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('AREA', 5),
+                             ('VEGETACAO', 5),
+                             ('DIRETAMENTE', 5),
+                             ('CORREGO', 4),
+                             ('ADA', 4),
+                             ('B', 4),
+                             ('BARRAGEM', 3),
+                             ('DELIMITACAO', 3),
+                             ('DEFINICAO', 3),
+                             ('AFETADA', 3),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('AREA', 5),
+                            ('VEGETACAO', 5),
+                            ('DIRETAMENTE', 5),
+                            ('CORREGO', 4),
+                            ('ADA', 4),
+                            ('B', 4),
+                            ('BARRAGEM', 3),
+                            ('DELIMITACAO', 3),
+                            ('DEFINICAO', 3),
+                            ('AFETADA', 3),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_24.txt ==========================
+
+======================== INICIO -> arq_25.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('AGUA', 12),
+                             ('RIO', 12),
+                             ('ROMPIMENTO', 10),
+                             ('DOENCAS', 10),
+                             ('BARRAGEM', 8),
+                             ('DOCE', 7),
+                             ('MUNICIPIOS', 7),
+                             ('DIARREICAS', 6),
+                             ('INCIDENCIA', 6),
+                             ('BACIA', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('AGUA', 12),
+                            ('RIO', 12),
+                            ('ROMPIMENTO', 10),
+                            ('DOENCAS', 10),
+                            ('BARRAGEM', 8),
+                            ('DOCE', 7),
+                            ('MUNICIPIOS', 7),
+                            ('DIARREICAS', 6),
+                            ('INCIDENCIA', 6),
+                            ('BACIA', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_25.txt ==========================
+
+======================== INICIO -> arq_26.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('URBANA', 12),
+                             ('CAPITAIS', 12),
+                             ('EXPANSAO', 8),
+                             ('CIDADES', 7),
+                             ('MORFOLOGIA', 7),
+                             ('REGIONAIS', 7),
+                             ('SOCIOECONOMICAS', 6),
+                             ('REGIOES', 5),
+                             ('FUNCIONAL', 5),
+                             ('COMPREENDER', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('URBANA', 12),
+                            ('CAPITAIS', 12),
+                            ('EXPANSAO', 8),
+                            ('CIDADES', 7),
+                            ('MORFOLOGIA', 7),
+                            ('REGIONAIS', 7),
+                            ('SOCIOECONOMICAS', 6),
+                            ('REGIOES', 5),
+                            ('FUNCIONAL', 5),
+                            ('COMPREENDER', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_26.txt ==========================
+
+======================== INICIO -> arq_27.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('ENTORNO', 15),
+                             ('DESENVOLVIMENTO', 12),
+                             ('CONSERVACAO', 10),
+                             ('GOVERNANCA', 8),
+                             ('RIO', 8),
+                             ('PARQUE', 8),
+                             ('ESTRATEGIAS', 7),
+                             ('BIODIVERSIDADE', 7),
+                             ('ESTADUAL', 7),
+                             ('POTENCIAL', 7),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('ENTORNO', 15),
+                            ('DESENVOLVIMENTO', 12),
+                            ('CONSERVACAO', 10),
+                            ('GOVERNANCA', 8),
+                            ('RIO', 8),
+                            ('PARQUE', 8),
+                            ('ESTRATEGIAS', 7),
+                            ('BIODIVERSIDADE', 7),
+                            ('ESTADUAL', 7),
+                            ('POTENCIAL', 7),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_27.txt ==========================
+
+======================== INICIO -> arq_28.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('TRANSITO', 11),
+                             ('FLUXO', 5),
+                             ('MODELO', 5),
+                             ('CENTRO', 5),
+                             ('DADOS', 4),
+                             ('CAPITAL', 3),
+                             ('FENOMENO', 3),
+                             ('BELO', 3),
+                             ('PERIODO', 3),
+                             ('HORIZONTE', 3),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('TRANSITO', 11),
+                            ('FLUXO', 5),
+                            ('MODELO', 5),
+                            ('CENTRO', 5),
+                            ('DADOS', 4),
+                            ('CAPITAL', 3),
+                            ('FENOMENO', 3),
+                            ('BELO', 3),
+                            ('PERIODO', 3),
+                            ('HORIZONTE', 3),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_28.txt ==========================
+
+======================== INICIO -> arq_29.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SAFS', 8),
+                             ('ESPECIES', 8),
+                             ('BACIA', 8),
+                             ('AMBIENTAL', 7),
+                             ('RESTAURACAO', 7),
+                             ('REGULARIZACAO', 7),
+                             ('CENARIOS', 6),
+                             ('RIO', 6),
+                             ('ECONOMICO', 5),
+                             ('AGROFLORESTAIS', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SAFS', 8),
+                            ('ESPECIES', 8),
+                            ('BACIA', 8),
+                            ('AMBIENTAL', 7),
+                            ('RESTAURACAO', 7),
+                            ('REGULARIZACAO', 7),
+                            ('CENARIOS', 6),
+                            ('RIO', 6),
+                            ('ECONOMICO', 5),
+                            ('AGROFLORESTAIS', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_29.txt ==========================
+
+======================== INICIO -> arq_30.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('BARRAGENS', 8),
+                             ('GERAIS', 6),
+                             ('MINERACAO', 5),
+                             ('MINAS', 5),
+                             ('INDUSTRIA', 4),
+                             ('AGENCIA', 4),
+                             ('FORMULACAO', 4),
+                             ('REJEITO', 4),
+                             ('POLITICAS', 4),
+                             ('METODOLOGIA', 3),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('BARRAGENS', 8),
+                            ('GERAIS', 6),
+                            ('MINERACAO', 5),
+                            ('MINAS', 5),
+                            ('INDUSTRIA', 4),
+                            ('AGENCIA', 4),
+                            ('FORMULACAO', 4),
+                            ('REJEITO', 4),
+                            ('POLITICAS', 4),
+                            ('METODOLOGIA', 3),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_30.txt ==========================
+
+======================== INICIO -> arq_31.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('USO', 9),
+                             ('RECURSOS', 7),
+                             ('ESCOAMENTO', 5),
+                             ('HIDROLOGICOS', 5),
+                             ('HIDRICOS', 5),
+                             ('DADOS', 5),
+                             ('TERRA', 5),
+                             ('MODELO', 5),
+                             ('BACIA', 5),
+                             ('GERENCIAMENTO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('USO', 9),
+                            ('RECURSOS', 7),
+                            ('ESCOAMENTO', 5),
+                            ('HIDROLOGICOS', 5),
+                            ('HIDRICOS', 5),
+                            ('DADOS', 5),
+                            ('TERRA', 5),
+                            ('MODELO', 5),
+                            ('BACIA', 5),
+                            ('GERENCIAMENTO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_31.txt ==========================
+
+======================== INICIO -> arq_32.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('D´AGUA', 6),
+                             ('OCORRENCIA', 6),
+                             ('GEODIVERSIDADE', 6),
+                             ('QUEDAS', 6),
+                             ('BAIXO', 4),
+                             ('AMBIENTE', 4),
+                             ('CONCEITOS', 4),
+                             ('GEOPATRIMONIO', 4),
+                             ('AREAS', 4),
+                             ('POTENCIAL', 3),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('D´AGUA', 6),
+                            ('OCORRENCIA', 6),
+                            ('GEODIVERSIDADE', 6),
+                            ('QUEDAS', 6),
+                            ('BAIXO', 4),
+                            ('AMBIENTE', 4),
+                            ('CONCEITOS', 4),
+                            ('GEOPATRIMONIO', 4),
+                            ('AREAS', 4),
+                            ('POTENCIAL', 3),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_32.txt ==========================
+
+======================== INICIO -> arq_33.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('BARRAGENS', 10),
+                             ('ROMPIMENTO', 9),
+                             ('BACIA', 7),
+                             ('RECURSOS', 6),
+                             ('NAOSEGURAS', 6),
+                             ('REJEITO', 5),
+                             ('ICTIOFAUNA', 5),
+                             ('MINAS', 5),
+                             ('HIDROGRAFICA', 5),
+                             ('PARAOPEBA', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('BARRAGENS', 10),
+                            ('ROMPIMENTO', 9),
+                            ('BACIA', 7),
+                            ('RECURSOS', 6),
+                            ('NAOSEGURAS', 6),
+                            ('REJEITO', 5),
+                            ('ICTIOFAUNA', 5),
+                            ('MINAS', 5),
+                            ('HIDROGRAFICA', 5),
+                            ('PARAOPEBA', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_33.txt ==========================
+
+======================== INICIO -> arq_34.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('LAGOA', 14),
+                             ('B', 8),
+                             ('NTU', 8),
+                             ('GRUPO', 8),
+                             ('RMSE', 8),
+                             ('AGUA', 8),
+                             ('TURBIDEZ', 7),
+                             ('VALORES', 7),
+                             ('SENSORIAMENTO', 7),
+                             ('REMOTO', 7),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('LAGOA', 14),
+                            ('B', 8),
+                            ('NTU', 8),
+                            ('GRUPO', 8),
+                            ('RMSE', 8),
+                            ('AGUA', 8),
+                            ('TURBIDEZ', 7),
+                            ('VALORES', 7),
+                            ('SENSORIAMENTO', 7),
+                            ('REMOTO', 7),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_34.txt ==========================
+
+======================== INICIO -> arq_35.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('PAISAGEM', 8),
+                             ('ADENSAMENTO', 7),
+                             ('URBANA', 7),
+                             ('MODELOS', 7),
+                             ('REPRESENTACAO', 6),
+                             ('CONSTRUTIVO', 6),
+                             ('PLANEJAMENTO', 5),
+                             ('GESTAO', 4),
+                             ('MODELAGEM', 4),
+                             ('FENOMENO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('PAISAGEM', 8),
+                            ('ADENSAMENTO', 7),
+                            ('URBANA', 7),
+                            ('MODELOS', 7),
+                            ('REPRESENTACAO', 6),
+                            ('CONSTRUTIVO', 6),
+                            ('PLANEJAMENTO', 5),
+                            ('GESTAO', 4),
+                            ('MODELAGEM', 4),
+                            ('FENOMENO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_35.txt ==========================
+
+======================== INICIO -> arq_36.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('GOVERNANCA', 12),
+                             ('RECUPERACAO', 10),
+                             ('NAO', 8),
+                             ('FUNDACAO', 7),
+                             ('TTAC', 7),
+                             ('AMBIENTAL', 7),
+                             ('DESASTRE', 7),
+                             ('SOCIAIS', 7),
+                             ('PARTICIPACAO', 6),
+                             ('BRASIL', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('GOVERNANCA', 12),
+                            ('RECUPERACAO', 10),
+                            ('NAO', 8),
+                            ('FUNDACAO', 7),
+                            ('TTAC', 7),
+                            ('AMBIENTAL', 7),
+                            ('DESASTRE', 7),
+                            ('SOCIAIS', 7),
+                            ('PARTICIPACAO', 6),
+                            ('BRASIL', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_36.txt ==========================
+
+======================== INICIO -> arq_37.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('DESMATAMENTO', 13),
+                             ('AREAS', 10),
+                             ('AGRICULTORES', 10),
+                             ('INTENSIFICACAO', 9),
+                             ('DINAMICA', 8),
+                             ('PROVINCIA', 8),
+                             ('APTIDAO', 8),
+                             ('AGRICOLA', 8),
+                             ('PRODUCAO', 7),
+                             ('AREA', 7),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('DESMATAMENTO', 13),
+                            ('AREAS', 10),
+                            ('AGRICULTORES', 10),
+                            ('INTENSIFICACAO', 9),
+                            ('DINAMICA', 8),
+                            ('PROVINCIA', 8),
+                            ('APTIDAO', 8),
+                            ('AGRICOLA', 8),
+                            ('PRODUCAO', 7),
+                            ('AREA', 7),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_37.txt ==========================
+
+======================== INICIO -> arq_38.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('DANOS', 11),
+                             ('CASO', 9),
+                             ('BARRAGEM', 8),
+                             ('ROMPIMENTO', 6),
+                             ('BARRAGENS', 6),
+                             ('CAUSADOS', 6),
+                             ('EVENTO', 5),
+                             ('ESTIMATIVA', 5),
+                             ('FUNDAO', 5),
+                             ('RISCO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('DANOS', 11),
+                            ('CASO', 9),
+                            ('BARRAGEM', 8),
+                            ('ROMPIMENTO', 6),
+                            ('BARRAGENS', 6),
+                            ('CAUSADOS', 6),
+                            ('EVENTO', 5),
+                            ('ESTIMATIVA', 5),
+                            ('FUNDAO', 5),
+                            ('RISCO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_38.txt ==========================
+
+======================== INICIO -> arq_39.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('AMBIENTAIS', 12),
+                             ('QUALIDADE', 11),
+                             ('USO', 10),
+                             ('ANALISE', 10),
+                             ('PERICIAS', 9),
+                             ('SOLO', 8),
+                             ('AGUA', 8),
+                             ('DADOS', 6),
+                             ('ABASTECIMENTO', 6),
+                             ('IMPACTOS', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('AMBIENTAIS', 12),
+                            ('QUALIDADE', 11),
+                            ('USO', 10),
+                            ('ANALISE', 10),
+                            ('PERICIAS', 9),
+                            ('SOLO', 8),
+                            ('AGUA', 8),
+                            ('DADOS', 6),
+                            ('ABASTECIMENTO', 6),
+                            ('IMPACTOS', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_39.txt ==========================
+
+======================== INICIO -> arq_40.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('FUNCOES', 13),
+                             ('IMPLEMENTACAO', 8),
+                             ('MUNICIPIOS', 8),
+                             ('ALTA', 8),
+                             ('SAFS', 7),
+                             ('AREAS', 7),
+                             ('AGRICOLA', 5),
+                             ('CONSERVACAO', 5),
+                             ('CONCILIAR', 5),
+                             ('DIVERSIDADE', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('FUNCOES', 13),
+                            ('IMPLEMENTACAO', 8),
+                            ('MUNICIPIOS', 8),
+                            ('ALTA', 8),
+                            ('SAFS', 7),
+                            ('AREAS', 7),
+                            ('AGRICOLA', 5),
+                            ('CONSERVACAO', 5),
+                            ('CONCILIAR', 5),
+                            ('DIVERSIDADE', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_40.txt ==========================
+
+======================== INICIO -> arq_41.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('QUALIDADE', 15),
+                             ('ZONAS', 11),
+                             ('AGUAS', 10),
+                             ('CENARIO', 10),
+                             ('RIPARIAS', 8),
+                             ('ATUAL', 5),
+                             ('DIFUSA', 4),
+                             ('CONFORME', 4),
+                             ('RECUPERACAO', 4),
+                             ('MELHORIAS', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('QUALIDADE', 15),
+                            ('ZONAS', 11),
+                            ('AGUAS', 10),
+                            ('CENARIO', 10),
+                            ('RIPARIAS', 8),
+                            ('ATUAL', 5),
+                            ('DIFUSA', 4),
+                            ('CONFORME', 4),
+                            ('RECUPERACAO', 4),
+                            ('MELHORIAS', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_41.txt ==========================
+
+======================== INICIO -> arq_42.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('PRESSAO', 14),
+                             ('UC', 13),
+                             ('CONSERVACAO', 8),
+                             ('PROTECAO', 7),
+                             ('ESTAO', 6),
+                             ('UNIDADES', 6),
+                             ('MODELO', 6),
+                             ('ANTROPICA', 6),
+                             ('INDICE', 6),
+                             ('CRIAR', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('PRESSAO', 14),
+                            ('UC', 13),
+                            ('CONSERVACAO', 8),
+                            ('PROTECAO', 7),
+                            ('ESTAO', 6),
+                            ('UNIDADES', 6),
+                            ('MODELO', 6),
+                            ('ANTROPICA', 6),
+                            ('INDICE', 6),
+                            ('CRIAR', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_42.txt ==========================
+
+======================== INICIO -> arq_43.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('DEL', 17),
+                             ('LAS', 10),
+                             ('SOCIALES', 8),
+                             ('VIABILIDAD', 6),
+                             ('SOCIAL', 6),
+                             ('TRANSPORTE', 6),
+                             ('PERU', 5),
+                             ('AMBIENTAL', 5),
+                             ('PROYECTO', 5),
+                             ('CORREDORES', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('DEL', 17),
+                            ('LAS', 10),
+                            ('SOCIALES', 8),
+                            ('VIABILIDAD', 6),
+                            ('SOCIAL', 6),
+                            ('TRANSPORTE', 6),
+                            ('PERU', 5),
+                            ('AMBIENTAL', 5),
+                            ('PROYECTO', 5),
+                            ('CORREDORES', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_43.txt ==========================
+
+======================== INICIO -> arq_44.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SERVICOS', 15),
+                             ('GEODIVERSIDADE', 11),
+                             ('SAO', 10),
+                             ('SF', 7),
+                             ('MINAS', 6),
+                             ('HIDROGRAFICA', 6),
+                             ('UPGRHS', 5),
+                             ('BACIA', 5),
+                             ('RIO', 5),
+                             ('ANALISE', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SERVICOS', 15),
+                            ('GEODIVERSIDADE', 11),
+                            ('SAO', 10),
+                            ('SF', 7),
+                            ('MINAS', 6),
+                            ('HIDROGRAFICA', 6),
+                            ('UPGRHS', 5),
+                            ('BACIA', 5),
+                            ('RIO', 5),
+                            ('ANALISE', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_44.txt ==========================
+
+======================== INICIO -> arq_45.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('CICLABILIDADE', 6),
+                             ('BICICLETA', 5),
+                             ('USO', 5),
+                             ('MODO', 5),
+                             ('VIARIA', 4),
+                             ('ESTIMAR', 4),
+                             ('POPULACAO', 4),
+                             ('PRINCIPALMENTE', 4),
+                             ('MOBILIDADE', 3),
+                             ('URBANA', 3),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('CICLABILIDADE', 6),
+                            ('BICICLETA', 5),
+                            ('USO', 5),
+                            ('MODO', 5),
+                            ('VIARIA', 4),
+                            ('ESTIMAR', 4),
+                            ('POPULACAO', 4),
+                            ('PRINCIPALMENTE', 4),
+                            ('MOBILIDADE', 3),
+                            ('URBANA', 3),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_45.txt ==========================
+
+======================== INICIO -> arq_46.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('EVAPOTRANSPIRACAO', 11),
+                             ('BALANCO', 10),
+                             ('METRIC', 8),
+                             ('MODELO', 7),
+                             ('ENERGIA', 7),
+                             ('COMPONENTES', 6),
+                             ('RIBEIRAO', 6),
+                             ('DIARIA', 5),
+                             ('RECURSOS', 5),
+                             ('REALIZAR', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('EVAPOTRANSPIRACAO', 11),
+                            ('BALANCO', 10),
+                            ('METRIC', 8),
+                            ('MODELO', 7),
+                            ('ENERGIA', 7),
+                            ('COMPONENTES', 6),
+                            ('RIBEIRAO', 6),
+                            ('DIARIA', 5),
+                            ('RECURSOS', 5),
+                            ('REALIZAR', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_46.txt ==========================
+
+======================== INICIO -> arq_47.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('MODELO', 8),
+                             ('SIMULACAO', 8),
+                             ('AREAS', 6),
+                             ('RUPTURA', 5),
+                             ('SIMULACOES', 5),
+                             ('MODELOS', 5),
+                             ('ESTUDOS', 5),
+                             ('RESOLUCAO', 5),
+                             ('DIGITAL', 5),
+                             ('ROMPIMENTO', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('MODELO', 8),
+                            ('SIMULACAO', 8),
+                            ('AREAS', 6),
+                            ('RUPTURA', 5),
+                            ('SIMULACOES', 5),
+                            ('MODELOS', 5),
+                            ('ESTUDOS', 5),
+                            ('RESOLUCAO', 5),
+                            ('DIGITAL', 5),
+                            ('ROMPIMENTO', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_47.txt ==========================
+
+======================== INICIO -> arq_48.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('EVAPOTRANSPIRACAO', 13),
+                             ('AMAZONICA', 12),
+                             ('FLORESTA', 9),
+                             ('BACIA', 9),
+                             ('CLIMATICAS', 8),
+                             ('VALORES', 7),
+                             ('CLIMATICO', 5),
+                             ('EMISSAO', 5),
+                             ('MUDANCAS', 5),
+                             ('DURANTE', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('EVAPOTRANSPIRACAO', 13),
+                            ('AMAZONICA', 12),
+                            ('FLORESTA', 9),
+                            ('BACIA', 9),
+                            ('CLIMATICAS', 8),
+                            ('VALORES', 7),
+                            ('CLIMATICO', 5),
+                            ('EMISSAO', 5),
+                            ('MUDANCAS', 5),
+                            ('DURANTE', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_48.txt ==========================
+
+======================== INICIO -> arq_49.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('QUALIDADE', 11),
+                             ('R²AJ', 10),
+                             ('D\x92AGUA', 8),
+                             ('BACIA', 8),
+                             ('RIO', 7),
+                             ('AGUA', 7),
+                             ('MEDIANA', 6),
+                             ('EXTENSOES', 6),
+                             ('MONTANTE', 6),
+                             ('ESPACIAIS', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('QUALIDADE', 11),
+                            ('R²AJ', 10),
+                            ('D\x92AGUA', 8),
+                            ('BACIA', 8),
+                            ('RIO', 7),
+                            ('AGUA', 7),
+                            ('MEDIANA', 6),
+                            ('EXTENSOES', 6),
+                            ('MONTANTE', 6),
+                            ('ESPACIAIS', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_49.txt ==========================
+
+======================== INICIO -> arq_50.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SOLO', 22),
+                             ('DADOS', 9),
+                             ('MODELAGEM', 9),
+                             ('GRANULOMETRIA', 8),
+                             ('RIO', 7),
+                             ('ANALISE', 6),
+                             ('ATRIBUTOS', 6),
+                             ('MAPEAMENTO', 5),
+                             ('IMPORTANTE', 5),
+                             ('RECURSO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SOLO', 22),
+                            ('DADOS', 9),
+                            ('MODELAGEM', 9),
+                            ('GRANULOMETRIA', 8),
+                            ('RIO', 7),
+                            ('ANALISE', 6),
+                            ('ATRIBUTOS', 6),
+                            ('MAPEAMENTO', 5),
+                            ('IMPORTANTE', 5),
+                            ('RECURSO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_50.txt ==========================
+
+======================== INICIO -> arq_51.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('DESENVOLVIMENTO', 11),
+                             ('BRASIL', 10),
+                             ('PLANEJAMENTO', 9),
+                             ('SOCIAL', 9),
+                             ('SOCIOAMBIENTAIS', 9),
+                             ('ESPACIALMENTE', 8),
+                             ('INFRAESTRUTURA', 8),
+                             ('RLRLS', 7),
+                             ('KM', 7),
+                             ('CONSERVACAO', 7),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('DESENVOLVIMENTO', 11),
+                            ('BRASIL', 10),
+                            ('PLANEJAMENTO', 9),
+                            ('SOCIAL', 9),
+                            ('SOCIOAMBIENTAIS', 9),
+                            ('ESPACIALMENTE', 8),
+                            ('INFRAESTRUTURA', 8),
+                            ('RLRLS', 7),
+                            ('KM', 7),
+                            ('CONSERVACAO', 7),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_51.txt ==========================
+
+======================== INICIO -> arq_52.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('AREAS', 17),
+                             ('ENTORNO', 14),
+                             ('POTENCIAL', 12),
+                             ('COMUNIDADE', 10),
+                             ('AMBIENTAL', 8),
+                             ('VISOES', 8),
+                             ('PAISAGEM', 8),
+                             ('CENARIOS', 8),
+                             ('TRABALHO', 7),
+                             ('FUTUROS', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('AREAS', 17),
+                            ('ENTORNO', 14),
+                            ('POTENCIAL', 12),
+                            ('COMUNIDADE', 10),
+                            ('AMBIENTAL', 8),
+                            ('VISOES', 8),
+                            ('PAISAGEM', 8),
+                            ('CENARIOS', 8),
+                            ('TRABALHO', 7),
+                            ('FUTUROS', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_52.txt ==========================
+
+======================== INICIO -> arq_53.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('CAPACIDADE', 9),
+                             ('SUPORTE', 7),
+                             ('CENTRAL', 7),
+                             ('URBANA', 7),
+                             ('AREA', 6),
+                             ('GESTAO', 6),
+                             ('MUNICIPAIS', 5),
+                             ('LUOS', 4),
+                             ('LAGOAS', 4),
+                             ('TERRITORIO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('CAPACIDADE', 9),
+                            ('SUPORTE', 7),
+                            ('CENTRAL', 7),
+                            ('URBANA', 7),
+                            ('AREA', 6),
+                            ('GESTAO', 6),
+                            ('MUNICIPAIS', 5),
+                            ('LUOS', 4),
+                            ('LAGOAS', 4),
+                            ('TERRITORIO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_53.txt ==========================
+
+======================== INICIO -> arq_54.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('BACIA', 15),
+                             ('AREAS', 11),
+                             ('EROSAO', 10),
+                             ('USO', 9),
+                             ('AVALIACAO', 8),
+                             ('COBERTURA', 8),
+                             ('RESISTENCIA', 8),
+                             ('HIDROGRAFICA', 8),
+                             ('RIO', 6),
+                             ('GUALAXO', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('BACIA', 15),
+                            ('AREAS', 11),
+                            ('EROSAO', 10),
+                            ('USO', 9),
+                            ('AVALIACAO', 8),
+                            ('COBERTURA', 8),
+                            ('RESISTENCIA', 8),
+                            ('HIDROGRAFICA', 8),
+                            ('RIO', 6),
+                            ('GUALAXO', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_54.txt ==========================
+
+======================== INICIO -> arq_55.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('MODELO', 12),
+                             ('RISCO', 10),
+                             ('DADOS', 9),
+                             ('AREAS', 9),
+                             ('NEURAIS', 7),
+                             ('RNA', 7),
+                             ('INCENDIOS', 6),
+                             ('RESULTADOS', 6),
+                             ('URBANAS', 6),
+                             ('INCENDIO', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('MODELO', 12),
+                            ('RISCO', 10),
+                            ('DADOS', 9),
+                            ('AREAS', 9),
+                            ('NEURAIS', 7),
+                            ('RNA', 7),
+                            ('INCENDIOS', 6),
+                            ('RESULTADOS', 6),
+                            ('URBANAS', 6),
+                            ('INCENDIO', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_55.txt ==========================
+
+======================== INICIO -> arq_56.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('FATALIDADES', 12),
+                             ('PADROES', 7),
+                             ('TEMPORAIS', 6),
+                             ('AREAS', 6),
+                             ('FERROVIA', 5),
+                             ('FLORESTA', 5),
+                             ('RHINELLA', 4),
+                             ('EMBORA', 4),
+                             ('MAIS', 4),
+                             ('ESPACIAIS', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('FATALIDADES', 12),
+                            ('PADROES', 7),
+                            ('TEMPORAIS', 6),
+                            ('AREAS', 6),
+                            ('FERROVIA', 5),
+                            ('FLORESTA', 5),
+                            ('RHINELLA', 4),
+                            ('EMBORA', 4),
+                            ('MAIS', 4),
+                            ('ESPACIAIS', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_56.txt ==========================
+
+======================== INICIO -> arq_57.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('PAISAGENS', 11),
+                             ('ANALISE', 8),
+                             ('SAO', 7),
+                             ('ESCALA', 7),
+                             ('DADOS', 6),
+                             ('INDICES', 6),
+                             ('ACUSTICOS', 5),
+                             ('SONORAS', 5),
+                             ('ESTUDOS', 5),
+                             ('ACUSTICAS', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('PAISAGENS', 11),
+                            ('ANALISE', 8),
+                            ('SAO', 7),
+                            ('ESCALA', 7),
+                            ('DADOS', 6),
+                            ('INDICES', 6),
+                            ('ACUSTICOS', 5),
+                            ('SONORAS', 5),
+                            ('ESTUDOS', 5),
+                            ('ACUSTICAS', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_57.txt ==========================
+
+======================== INICIO -> arq_58.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('MINAS', 9),
+                             ('ARMAZENAGEM', 8),
+                             ('ARMAZENADORAS', 8),
+                             ('UNIDADES', 7),
+                             ('LOCALIZACAO', 6),
+                             ('NOVAS', 6),
+                             ('ESTADO', 5),
+                             ('ADEQUACAO', 5),
+                             ('DEFICIT', 5),
+                             ('DEVIDO', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('MINAS', 9),
+                            ('ARMAZENAGEM', 8),
+                            ('ARMAZENADORAS', 8),
+                            ('UNIDADES', 7),
+                            ('LOCALIZACAO', 6),
+                            ('NOVAS', 6),
+                            ('ESTADO', 5),
+                            ('ADEQUACAO', 5),
+                            ('DEFICIT', 5),
+                            ('DEVIDO', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_58.txt ==========================
+
+======================== INICIO -> arq_59.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('QUALIDADE', 16),
+                             ('RECURSOS', 10),
+                             ('USO', 9),
+                             ('TERRA', 8),
+                             ('COBERTURA', 8),
+                             ('BACIA', 8),
+                             ('GESTAO', 6),
+                             ('HIDRICOS', 6),
+                             ('PARAMETROS', 6),
+                             ('VARIAVEIS', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('QUALIDADE', 16),
+                            ('RECURSOS', 10),
+                            ('USO', 9),
+                            ('TERRA', 8),
+                            ('COBERTURA', 8),
+                            ('BACIA', 8),
+                            ('GESTAO', 6),
+                            ('HIDRICOS', 6),
+                            ('PARAMETROS', 6),
+                            ('VARIAVEIS', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_59.txt ==========================
+
+======================== INICIO -> arq_60.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SETOR', 12),
+                             ('EMISSOES', 9),
+                             ('USO', 9),
+                             ('INVENTARIOS', 7),
+                             ('INVENTARIO', 7),
+                             ('TERRA', 7),
+                             ('LULUCF', 6),
+                             ('GEE', 6),
+                             ('BRASIL', 5),
+                             ('REMOCAO', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SETOR', 12),
+                            ('EMISSOES', 9),
+                            ('USO', 9),
+                            ('INVENTARIOS', 7),
+                            ('INVENTARIO', 7),
+                            ('TERRA', 7),
+                            ('LULUCF', 6),
+                            ('GEE', 6),
+                            ('BRASIL', 5),
+                            ('REMOCAO', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_60.txt ==========================
+
+======================== INICIO -> arq_61.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SOLOS', 17),
+                             ('MOLES', 9),
+                             ('OCORRENCIA', 8),
+                             ('SAO', 6),
+                             ('POTENCIAL', 6),
+                             ('SOLO', 5),
+                             ('MODELO', 5),
+                             ('INFRAESTRUTURA', 4),
+                             ('EMBORA', 4),
+                             ('BRASIL', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SOLOS', 17),
+                            ('MOLES', 9),
+                            ('OCORRENCIA', 8),
+                            ('SAO', 6),
+                            ('POTENCIAL', 6),
+                            ('SOLO', 5),
+                            ('MODELO', 5),
+                            ('INFRAESTRUTURA', 4),
+                            ('EMBORA', 4),
+                            ('BRASIL', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_61.txt ==========================
+
+======================== INICIO -> arq_62.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('UNIDADE', 8),
+                             ('USO', 7),
+                             ('PAISAGEM', 6),
+                             ('COBERTURA', 6),
+                             ('ANOS', 6),
+                             ('VEGETACAO', 6),
+                             ('AREA', 5),
+                             ('PROCESSO', 5),
+                             ('PERIODO', 5),
+                             ('FRAGMENTACAO', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('UNIDADE', 8),
+                            ('USO', 7),
+                            ('PAISAGEM', 6),
+                            ('COBERTURA', 6),
+                            ('ANOS', 6),
+                            ('VEGETACAO', 6),
+                            ('AREA', 5),
+                            ('PROCESSO', 5),
+                            ('PERIODO', 5),
+                            ('FRAGMENTACAO', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_62.txt ==========================
+
+======================== INICIO -> arq_63.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('EMISSOES', 14),
+                             ('UHE', 10),
+                             ('TELES', 8),
+                             ('PAISES', 7),
+                             ('DESENVOLVIMENTO', 6),
+                             ('PROJETO', 6),
+                             ('INDIRETAS', 5),
+                             ('ANEXO', 5),
+                             ('OCASIONADAS', 4),
+                             ('CONSIDERAR', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('EMISSOES', 14),
+                            ('UHE', 10),
+                            ('TELES', 8),
+                            ('PAISES', 7),
+                            ('DESENVOLVIMENTO', 6),
+                            ('PROJETO', 6),
+                            ('INDIRETAS', 5),
+                            ('ANEXO', 5),
+                            ('OCASIONADAS', 4),
+                            ('CONSIDERAR', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_63.txt ==========================
+
+======================== INICIO -> arq_64.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('BACIA', 15),
+                             ('CORREGO', 10),
+                             ('MARINHEIRO', 7),
+                             ('HIDROGRAFICA', 6),
+                             ('AREA', 5),
+                             ('MODELAGEM', 5),
+                             ('VAZOES', 5),
+                             ('LAGOAS', 5),
+                             ('HIDROLOGICO', 4),
+                             ('HIDROLOGICA', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('BACIA', 15),
+                            ('CORREGO', 10),
+                            ('MARINHEIRO', 7),
+                            ('HIDROGRAFICA', 6),
+                            ('AREA', 5),
+                            ('MODELAGEM', 5),
+                            ('VAZOES', 5),
+                            ('LAGOAS', 5),
+                            ('HIDROLOGICO', 4),
+                            ('HIDROLOGICA', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_64.txt ==========================
+
+======================== INICIO -> arq_65.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('INUNDACAO', 14),
+                             ('MAPAS', 7),
+                             ('FUZZY', 7),
+                             ('ANALISE', 6),
+                             ('MUNICIPIO', 6),
+                             ('LOGICA', 5),
+                             ('RISCO', 4),
+                             ('SUBMETIDOS', 4),
+                             ('NOVA', 4),
+                             ('LOTES', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('INUNDACAO', 14),
+                            ('MAPAS', 7),
+                            ('FUZZY', 7),
+                            ('ANALISE', 6),
+                            ('MUNICIPIO', 6),
+                            ('LOGICA', 5),
+                            ('RISCO', 4),
+                            ('SUBMETIDOS', 4),
+                            ('NOVA', 4),
+                            ('LOTES', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_65.txt ==========================
+
+======================== INICIO -> arq_66.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('ECORREGIOES', 24),
+                             ('NIVEL', 20),
+                             ('SAO', 13),
+                             ('MAPEAMENTO', 10),
+                             ('BACIA', 7),
+                             ('METODO', 7),
+                             ('MINAS', 6),
+                             ('AMBIENTAL', 5),
+                             ('FRANCISCO', 5),
+                             ('RIO', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('ECORREGIOES', 24),
+                            ('NIVEL', 20),
+                            ('SAO', 13),
+                            ('MAPEAMENTO', 10),
+                            ('BACIA', 7),
+                            ('METODO', 7),
+                            ('MINAS', 6),
+                            ('AMBIENTAL', 5),
+                            ('FRANCISCO', 5),
+                            ('RIO', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_66.txt ==========================
+
+======================== INICIO -> arq_67.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('CENARIO', 10),
+                             ('MINERACAO', 10),
+                             ('GEOCONSERVACAO', 8),
+                             ('INTEGRADO', 7),
+                             ('ESTRADA', 6),
+                             ('ATIVIDADES', 6),
+                             ('TANTO', 5),
+                             ('EXPLORACAO', 5),
+                             ('MEIO', 5),
+                             ('FAVORAVEL', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('CENARIO', 10),
+                            ('MINERACAO', 10),
+                            ('GEOCONSERVACAO', 8),
+                            ('INTEGRADO', 7),
+                            ('ESTRADA', 6),
+                            ('ATIVIDADES', 6),
+                            ('TANTO', 5),
+                            ('EXPLORACAO', 5),
+                            ('MEIO', 5),
+                            ('FAVORAVEL', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_67.txt ==========================
+
+======================== INICIO -> arq_68.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('ACAI', 20),
+                             ('PRODUCAO', 12),
+                             ('CADEIA', 8),
+                             ('PRODUTIVIDADE', 8),
+                             ('MODELO', 7),
+                             ('CUSTOS', 7),
+                             ('POTENCIAL', 6),
+                             ('ECONOMICO', 5),
+                             ('PRODUTIVA', 5),
+                             ('RENTABILIDADE', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('ACAI', 20),
+                            ('PRODUCAO', 12),
+                            ('CADEIA', 8),
+                            ('PRODUTIVIDADE', 8),
+                            ('MODELO', 7),
+                            ('CUSTOS', 7),
+                            ('POTENCIAL', 6),
+                            ('ECONOMICO', 5),
+                            ('PRODUTIVA', 5),
+                            ('RENTABILIDADE', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_68.txt ==========================
+
+======================== INICIO -> arq_69.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('CENARIO', 8),
+                             ('GEOCONSERVACAO', 8),
+                             ('APTIDAO', 7),
+                             ('AREAS', 7),
+                             ('INCERTEZA', 5),
+                             ('INTEGRADO', 4),
+                             ('PROPICIAS', 4),
+                             ('MINERACAO', 4),
+                             ('CARSTICA', 4),
+                             ('CONSTRUCAO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('CENARIO', 8),
+                            ('GEOCONSERVACAO', 8),
+                            ('APTIDAO', 7),
+                            ('AREAS', 7),
+                            ('INCERTEZA', 5),
+                            ('INTEGRADO', 4),
+                            ('PROPICIAS', 4),
+                            ('MINERACAO', 4),
+                            ('CARSTICA', 4),
+                            ('CONSTRUCAO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_69.txt ==========================
+
+======================== INICIO -> arq_70.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('COBERTURA', 7),
+                             ('DOCE', 6),
+                             ('SOLO', 5),
+                             ('RECURSOS', 5),
+                             ('MODELO', 5),
+                             ('RIO', 5),
+                             ('BACIA', 4),
+                             ('DISPONIBILIDADE', 4),
+                             ('USO', 4),
+                             ('DIFERENCA', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('COBERTURA', 7),
+                            ('DOCE', 6),
+                            ('SOLO', 5),
+                            ('RECURSOS', 5),
+                            ('MODELO', 5),
+                            ('RIO', 5),
+                            ('BACIA', 4),
+                            ('DISPONIBILIDADE', 4),
+                            ('USO', 4),
+                            ('DIFERENCA', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_70.txt ==========================
+
+======================== INICIO -> arq_71.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SERVICOS', 18),
+                             ('ECOSSISTEMICOS', 14),
+                             ('DISTRITO', 11),
+                             ('MONTE', 10),
+                             ('PAISAGEM', 10),
+                             ('MODELAGEM', 9),
+                             ('CULTURAIS', 7),
+                             ('VERDE', 7),
+                             ('MAPEAMENTO', 7),
+                             ('SAO', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SERVICOS', 18),
+                            ('ECOSSISTEMICOS', 14),
+                            ('DISTRITO', 11),
+                            ('MONTE', 10),
+                            ('PAISAGEM', 10),
+                            ('MODELAGEM', 9),
+                            ('CULTURAIS', 7),
+                            ('VERDE', 7),
+                            ('MAPEAMENTO', 7),
+                            ('SAO', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_71.txt ==========================
+
+======================== INICIO -> arq_72.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('PATRIMONIO', 9),
+                             ('TERRITORIO', 6),
+                             ('POLITICA', 5),
+                             ('MAPEAMENTO', 4),
+                             ('CULTURAL', 4),
+                             ('ESTRUTURAS', 4),
+                             ('MEMORIA', 3),
+                             ('SECULO', 3),
+                             ('ESTADUAL', 3),
+                             ('PROTECAO', 3),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('PATRIMONIO', 9),
+                            ('TERRITORIO', 6),
+                            ('POLITICA', 5),
+                            ('MAPEAMENTO', 4),
+                            ('CULTURAL', 4),
+                            ('ESTRUTURAS', 4),
+                            ('MEMORIA', 3),
+                            ('SECULO', 3),
+                            ('ESTADUAL', 3),
+                            ('PROTECAO', 3),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_72.txt ==========================
+
+======================== INICIO -> arq_73.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SEGURANCA', 8),
+                             ('ATRACAO', 7),
+                             ('AEROPORTOS', 6),
+                             ('AVES', 6),
+                             ('SOLO', 5),
+                             ('RISCO', 5),
+                             ('METROPOLITANA', 4),
+                             ('RAIOS', 4),
+                             ('TERRA', 4),
+                             ('PLANEJAMENTO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SEGURANCA', 8),
+                            ('ATRACAO', 7),
+                            ('AEROPORTOS', 6),
+                            ('AVES', 6),
+                            ('SOLO', 5),
+                            ('RISCO', 5),
+                            ('METROPOLITANA', 4),
+                            ('RAIOS', 4),
+                            ('TERRA', 4),
+                            ('PLANEJAMENTO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_73.txt ==========================
+
+======================== INICIO -> arq_74.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('TRANSPORTE', 11),
+                             ('BELO', 9),
+                             ('ONIBUS', 8),
+                             ('VIAGENS', 8),
+                             ('PUBLICO', 7),
+                             ('MODELO', 7),
+                             ('HORIZONTE', 7),
+                             ('MOBILIDADE', 5),
+                             ('ORIGEM', 5),
+                             ('NUMERO', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('TRANSPORTE', 11),
+                            ('BELO', 9),
+                            ('ONIBUS', 8),
+                            ('VIAGENS', 8),
+                            ('PUBLICO', 7),
+                            ('MODELO', 7),
+                            ('HORIZONTE', 7),
+                            ('MOBILIDADE', 5),
+                            ('ORIGEM', 5),
+                            ('NUMERO', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_74.txt ==========================
+
+======================== INICIO -> arq_75.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('MAPA', 10),
+                             ('POTENCIAL', 8),
+                             ('GEOTURISTICO', 6),
+                             ('ROLA', 6),
+                             ('ESTADUAL', 6),
+                             ('SERRA', 5),
+                             ('VULNERABILIDADE', 4),
+                             ('ATIVIDADES', 4),
+                             ('CONSERVACAO', 4),
+                             ('PESRM', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('MAPA', 10),
+                            ('POTENCIAL', 8),
+                            ('GEOTURISTICO', 6),
+                            ('ROLA', 6),
+                            ('ESTADUAL', 6),
+                            ('SERRA', 5),
+                            ('VULNERABILIDADE', 4),
+                            ('ATIVIDADES', 4),
+                            ('CONSERVACAO', 4),
+                            ('PESRM', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_75.txt ==========================
+
+======================== INICIO -> arq_76.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('ATERROS', 9),
+                             ('SANITARIOS', 7),
+                             ('AREAS', 7),
+                             ('CONSTRUCAO', 7),
+                             ('FORMA', 5),
+                             ('RESIDUOS', 4),
+                             ('DISPOSTOS', 4),
+                             ('METODO', 4),
+                             ('SAO', 4),
+                             ('ANALISE', 3),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('ATERROS', 9),
+                            ('SANITARIOS', 7),
+                            ('AREAS', 7),
+                            ('CONSTRUCAO', 7),
+                            ('FORMA', 5),
+                            ('RESIDUOS', 4),
+                            ('DISPOSTOS', 4),
+                            ('METODO', 4),
+                            ('SAO', 4),
+                            ('ANALISE', 3),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_76.txt ==========================
+
+======================== INICIO -> arq_77.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('OCORRENCIA', 10),
+                             ('AREA', 5),
+                             ('MODELAGEM', 5),
+                             ('ESPECIE', 5),
+                             ('ESPECIES', 5),
+                             ('PRINCIPALMENTE', 5),
+                             ('FAVORABILIDADE', 5),
+                             ('BACIA', 5),
+                             ('EXTINCAO', 4),
+                             ('FAVORAVEIS', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('OCORRENCIA', 10),
+                            ('AREA', 5),
+                            ('MODELAGEM', 5),
+                            ('ESPECIE', 5),
+                            ('ESPECIES', 5),
+                            ('PRINCIPALMENTE', 5),
+                            ('FAVORABILIDADE', 5),
+                            ('BACIA', 5),
+                            ('EXTINCAO', 4),
+                            ('FAVORAVEIS', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_77.txt ==========================
+
+======================== INICIO -> arq_78.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('DISTRIBUICAO', 10),
+                             ('AGUAPE', 7),
+                             ('ESPECIES', 7),
+                             ('POTENCIAL', 7),
+                             ('RISCO', 4),
+                             ('INVASOES', 4),
+                             ('INVASORAS', 4),
+                             ('AVALIAR', 4),
+                             ('ESPECIE', 4),
+                             ('ESPALHAMENTO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('DISTRIBUICAO', 10),
+                            ('AGUAPE', 7),
+                            ('ESPECIES', 7),
+                            ('POTENCIAL', 7),
+                            ('RISCO', 4),
+                            ('INVASOES', 4),
+                            ('INVASORAS', 4),
+                            ('AVALIAR', 4),
+                            ('ESPECIE', 4),
+                            ('ESPALHAMENTO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_78.txt ==========================
+
+======================== INICIO -> arq_79.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('FOGO', 6),
+                             ('INCENDIOS', 5),
+                             ('EMISSOES', 5),
+                             ('PODEM', 4),
+                             ('REDUZIR', 4),
+                             ('BIOMA', 4),
+                             ('MAIS', 4),
+                             ('FLORESTAIS', 4),
+                             ('MUDANCAS', 3),
+                             ('EXTENSAS', 3),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('FOGO', 6),
+                            ('INCENDIOS', 5),
+                            ('EMISSOES', 5),
+                            ('PODEM', 4),
+                            ('REDUZIR', 4),
+                            ('BIOMA', 4),
+                            ('MAIS', 4),
+                            ('FLORESTAIS', 4),
+                            ('MUDANCAS', 3),
+                            ('EXTENSAS', 3),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_79.txt ==========================
+
+======================== INICIO -> arq_80.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('FRACTAL', 8),
+                             ('MINAS', 8),
+                             ('CHUVAS', 7),
+                             ('DISTRIBUICAO', 6),
+                             ('COMPORTAMENTO', 4),
+                             ('PRECIPITACAO', 4),
+                             ('ESPACIAL', 4),
+                             ('DIMENSAO', 4),
+                             ('GERAIS', 4),
+                             ('FATORES', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('FRACTAL', 8),
+                            ('MINAS', 8),
+                            ('CHUVAS', 7),
+                            ('DISTRIBUICAO', 6),
+                            ('COMPORTAMENTO', 4),
+                            ('PRECIPITACAO', 4),
+                            ('ESPACIAL', 4),
+                            ('DIMENSAO', 4),
+                            ('GERAIS', 4),
+                            ('FATORES', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_80.txt ==========================
+
+======================== INICIO -> arq_81.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('EVAPOTRANSPIRACAO', 11),
+                             ('RELEVO', 7),
+                             ('REAL', 7),
+                             ('ENERGIA', 6),
+                             ('MODELO', 6),
+                             ('AREA', 5),
+                             ('MODELOS', 5),
+                             ('ESTIMATIVA', 5),
+                             ('INFLUENCIA', 5),
+                             ('PROCESSO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('EVAPOTRANSPIRACAO', 11),
+                            ('RELEVO', 7),
+                            ('REAL', 7),
+                            ('ENERGIA', 6),
+                            ('MODELO', 6),
+                            ('AREA', 5),
+                            ('MODELOS', 5),
+                            ('ESTIMATIVA', 5),
+                            ('INFLUENCIA', 5),
+                            ('PROCESSO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_81.txt ==========================
+
+======================== INICIO -> arq_82.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('FECHAMENTO', 10),
+                             ('PARTICIPACAO', 9),
+                             ('MINERAL', 6),
+                             ('AMBIENTAL', 5),
+                             ('MINAS', 5),
+                             ('PROCESSO', 4),
+                             ('PROCESSOS', 4),
+                             ('EMBORA', 4),
+                             ('PLANO', 4),
+                             ('NAO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('FECHAMENTO', 10),
+                            ('PARTICIPACAO', 9),
+                            ('MINERAL', 6),
+                            ('AMBIENTAL', 5),
+                            ('MINAS', 5),
+                            ('PROCESSO', 4),
+                            ('PROCESSOS', 4),
+                            ('EMBORA', 4),
+                            ('PLANO', 4),
+                            ('NAO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_82.txt ==========================
+
+======================== INICIO -> arq_83.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('REDE', 8),
+                             ('PERIODO', 7),
+                             ('COBERTURA', 7),
+                             ('SOLO', 6),
+                             ('INFRAESTRUTURAS', 6),
+                             ('PROJETOS', 5),
+                             ('FERROVIARIA', 5),
+                             ('EXPANSAO', 5),
+                             ('PRODUCAO', 5),
+                             ('RELACAO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('REDE', 8),
+                            ('PERIODO', 7),
+                            ('COBERTURA', 7),
+                            ('SOLO', 6),
+                            ('INFRAESTRUTURAS', 6),
+                            ('PROJETOS', 5),
+                            ('FERROVIARIA', 5),
+                            ('EXPANSAO', 5),
+                            ('PRODUCAO', 5),
+                            ('RELACAO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_83.txt ==========================
+
+======================== INICIO -> arq_84.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('USO', 11),
+                             ('COBERTURA', 10),
+                             ('METODOLOGIA', 9),
+                             ('SOLO', 8),
+                             ('VALIDACAO', 8),
+                             ('CLASSIFICACAO', 7),
+                             ('ORIENTADA', 5),
+                             ('FUZZY', 5),
+                             ('DADOS', 5),
+                             ('PESQUISA', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('USO', 11),
+                            ('COBERTURA', 10),
+                            ('METODOLOGIA', 9),
+                            ('SOLO', 8),
+                            ('VALIDACAO', 8),
+                            ('CLASSIFICACAO', 7),
+                            ('ORIENTADA', 5),
+                            ('FUZZY', 5),
+                            ('DADOS', 5),
+                            ('PESQUISA', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_84.txt ==========================
+
+======================== INICIO -> arq_85.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('TRATORES', 12),
+                             ('ATIVIDADE', 11),
+                             ('MENOR', 10),
+                             ('CONSUMO', 8),
+                             ('EXECUCAO', 8),
+                             ('TEMPO', 7),
+                             ('CENARIO', 7),
+                             ('CENARIOS', 6),
+                             ('AGENTES', 5),
+                             ('COMBUSTIVEL', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('TRATORES', 12),
+                            ('ATIVIDADE', 11),
+                            ('MENOR', 10),
+                            ('CONSUMO', 8),
+                            ('EXECUCAO', 8),
+                            ('TEMPO', 7),
+                            ('CENARIO', 7),
+                            ('CENARIOS', 6),
+                            ('AGENTES', 5),
+                            ('COMBUSTIVEL', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_85.txt ==========================
+
+======================== INICIO -> arq_86.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('QUALIDADE', 13),
+                             ('RESERVATORIOS', 9),
+                             ('MINAS', 8),
+                             ('AGUA', 8),
+                             ('AGUAS', 7),
+                             ('GERAIS', 6),
+                             ('ESTADO', 5),
+                             ('ENERGIA', 5),
+                             ('AMBIENTES', 5),
+                             ('CARACTERISTICAS', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('QUALIDADE', 13),
+                            ('RESERVATORIOS', 9),
+                            ('MINAS', 8),
+                            ('AGUA', 8),
+                            ('AGUAS', 7),
+                            ('GERAIS', 6),
+                            ('ESTADO', 5),
+                            ('ENERGIA', 5),
+                            ('AMBIENTES', 5),
+                            ('CARACTERISTICAS', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_86.txt ==========================
+
+======================== INICIO -> arq_87.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('GEODIVERSIDADE', 8),
+                             ('NACIONAL', 7),
+                             ('PARQUE', 6),
+                             ('BIODIVERSIDADE', 5),
+                             ('DIDATICO', 4),
+                             ('SERRA', 4),
+                             ('SITIOS', 4),
+                             ('POTENCIAL', 4),
+                             ('NESTE', 4),
+                             ('CONSERVACAO', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('GEODIVERSIDADE', 8),
+                            ('NACIONAL', 7),
+                            ('PARQUE', 6),
+                            ('BIODIVERSIDADE', 5),
+                            ('DIDATICO', 4),
+                            ('SERRA', 4),
+                            ('SITIOS', 4),
+                            ('POTENCIAL', 4),
+                            ('NESTE', 4),
+                            ('CONSERVACAO', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_87.txt ==========================
+
+======================== INICIO -> arq_88.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('ERROS', 17),
+                             ('SRTM', 15),
+                             ('ALTIMETRICOS', 8),
+                             ('ESPACIAL', 8),
+                             ('URBANA', 8),
+                             ('REPRESENTACAO', 8),
+                             ('SENSORIAMENTO', 8),
+                             ('MODELOS', 8),
+                             ('DIGITAIS', 7),
+                             ('ANALISE', 7),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('ERROS', 17),
+                            ('SRTM', 15),
+                            ('ALTIMETRICOS', 8),
+                            ('ESPACIAL', 8),
+                            ('URBANA', 8),
+                            ('REPRESENTACAO', 8),
+                            ('SENSORIAMENTO', 8),
+                            ('MODELOS', 8),
+                            ('DIGITAIS', 7),
+                            ('ANALISE', 7),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_88.txt ==========================
+
+======================== INICIO -> arq_89.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('EXTRATIVISMO', 12),
+                             ('ACAI', 10),
+                             ('FLORESTAIS', 8),
+                             ('FAMILIAS', 8),
+                             ('PARTE', 7),
+                             ('ESTADO', 7),
+                             ('ACRE', 6),
+                             ('DESENVOLVIMENTO', 6),
+                             ('NAO', 6),
+                             ('CASTANHA', 6),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('EXTRATIVISMO', 12),
+                            ('ACAI', 10),
+                            ('FLORESTAIS', 8),
+                            ('FAMILIAS', 8),
+                            ('PARTE', 7),
+                            ('ESTADO', 7),
+                            ('ACRE', 6),
+                            ('DESENVOLVIMENTO', 6),
+                            ('NAO', 6),
+                            ('CASTANHA', 6),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_89.txt ==========================
+
+======================== INICIO -> arq_90.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('MADERA', 12),
+                             ('DEL', 11),
+                             ('HA', 9),
+                             ('ANO', 8),
+                             ('FORESTAL', 6),
+                             ('VALORES', 6),
+                             ('USO', 6),
+                             ('TALA', 5),
+                             ('UNA', 5),
+                             ('COMERCIO', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('MADERA', 12),
+                            ('DEL', 11),
+                            ('HA', 9),
+                            ('ANO', 8),
+                            ('FORESTAL', 6),
+                            ('VALORES', 6),
+                            ('USO', 6),
+                            ('TALA', 5),
+                            ('UNA', 5),
+                            ('COMERCIO', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_90.txt ==========================
+
+======================== INICIO -> arq_91.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('SUSCETIBILIDADE', 20),
+                             ('BRANQUEAMENTO', 13),
+                             ('RECIFES', 12),
+                             ('BAIXA', 10),
+                             ('APRESENTOU', 9),
+                             ('AREA', 9),
+                             ('MEDIA', 7),
+                             ('SAO', 6),
+                             ('ANO', 6),
+                             ('MAIOR', 5),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('SUSCETIBILIDADE', 20),
+                            ('BRANQUEAMENTO', 13),
+                            ('RECIFES', 12),
+                            ('BAIXA', 10),
+                            ('APRESENTOU', 9),
+                            ('AREA', 9),
+                            ('MEDIA', 7),
+                            ('SAO', 6),
+                            ('ANO', 6),
+                            ('MAIOR', 5),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_91.txt ==========================
+
+======================== INICIO -> arq_92.txt ========================
+
+=    Tópicos encontrados: [ 
+                             ('PAISAGEM', 9),
+                             ('ENTORNO', 9),
+                             ('AREA', 7),
+                             ('GEOSSISTEMAS', 6),
+                             ('QUADRILATERO', 6),
+                             ('CAVIDADES', 5),
+                             ('FERRUGINOSOS', 5),
+                             ('CONFIGURACAO', 5),
+                             ('ULTIMOS', 4),
+                             ('CAVERNAS', 4),
+                          ]
+
+=    Tópicos relevantes: [ 
+                            ('PAISAGEM', 9),
+                            ('ENTORNO', 9),
+                            ('AREA', 7),
+                            ('GEOSSISTEMAS', 6),
+                            ('QUADRILATERO', 6),
+                            ('CAVIDADES', 5),
+                            ('FERRUGINOSOS', 5),
+                            ('CONFIGURACAO', 5),
+                            ('ULTIMOS', 4),
+                            ('CAVERNAS', 4),
+                         ]
+
+=    Tópicos não relevantes: [ LISTA VAZIA ]
+
+========================= FIM -> arq_92.txt ==========================
 
 --------------------------------------------------------------------------
