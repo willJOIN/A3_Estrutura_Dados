@@ -1,14 +1,22 @@
 from aresta import Aresta
+from artigo import Artigo
 
 
-class Vertice:
+class Autor:
     def __init__(self, id):
-        self.peso = 1
+        # nome do autor
         self.id = id
+        # quantidade de vezes adicionadas no grafo
+        self.peso = 1
+        # lista de coautores
         self.adjacentes: list[Aresta] = []
+        # lista de artigos
+        self.artigos: list[Artigo] = []
+        # quantidades de referencia a esse vertice
+        self.peso = 1
 
     def __str__(self) -> str:
-        return f"Vertice {self.id} -> {self.adjacentes if len(self.adjacentes) > 0 else '-- SEM ARESTAS --'}\n"
+        return f"autor:{self.id}"
 
     def __repr__(self):
         return str(self)
@@ -17,7 +25,16 @@ class Vertice:
         return hash(self.id)
 
     def __eq__(self, obj: object) -> bool:
-        return isinstance(obj, Vertice) and self.id == obj.id
+        return isinstance(obj, Autor) and self.id == obj.id
+
+    def add_artigo(self, titulo, texto, coautor):
+        art = Artigo(titulo, texto, self.id, coautor)
+        if art not in self.artigos:
+            self.artigos.append((titulo, texto, coautor))
+        else:
+            raise Warning(
+                f"artigo ja está na lista de artigos desse autor - autor: {self.id}"
+            )
 
     def add_adjacente(self, adjacente):
         aresta = Aresta(self, adjacente)

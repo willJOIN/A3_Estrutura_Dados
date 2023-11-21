@@ -53,15 +53,17 @@ def avaliar(tokens_arquivos_dict: dict):
             print("\nDigite uma quantidade válida (Apenas números são aceitos)")
             time.sleep(4)
         except Exception:
-
             print(
                 "\nDigite uma quantidade válida (Não há esse número de textos na pasta 'avaliacoes/')"
             )
             time.sleep(4)
-        
+
         break
-    
-    tokens_arquivos = {chave: tokens_arquivos_dict[chave] for chave in list(tokens_arquivos_dict)[:quantidade]}
+
+    tokens_arquivos = {
+        chave: tokens_arquivos_dict[chave]
+        for chave in list(tokens_arquivos_dict)[:quantidade]
+    }
 
     for arquivo, tokens in tokens_arquivos.items():
         print()

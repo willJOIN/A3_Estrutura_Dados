@@ -116,7 +116,8 @@ def remover_stop_words(linha_crua):
         [
             palavra.strip()
             for palavra in re.split(" +", linha)
-            if palavra.strip() not in stop_words and palavra.strip() not in letras_sozinhas
+            if palavra.strip() not in stop_words
+            and palavra.strip() not in letras_sozinhas
         ]
     )
 
@@ -144,14 +145,15 @@ def limpar_terminal():
     else:
         os.system("cls")
 
-def string_lista_identada(lista:list,espaco:str = "") -> str:
+
+def string_lista_identada(lista: list, espaco: str = "") -> str:
     string = "[ "
     identacao = "    " * 6
 
     for item in lista:
-        if lista.index(item) == 0: string += "\n"
+        if lista.index(item) == 0:
+            string += "\n"
         string += f"{identacao+espaco}    {item},\n"
-    
 
     string += f"{identacao+espaco if len(lista) > 0 else 'LISTA VAZIA'} ]"
 
