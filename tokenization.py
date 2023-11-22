@@ -22,16 +22,40 @@ class Tokens:
             with open(
                 f"textos/{nome_pasta_arquivos}/{nome_texto}", "r", encoding="ISO-8859-1"
             ) as f:
+
+                if ATIVIDADE == "TÓPICOS_RELEVANTES":
+
                 # le o arquivo e armazena em linha
-                for line in f.readlines():
-                    self.adicionar_grafo(self.execucao_linha(line), grafo)
+                  for line in f.readlines():
+                    self.adicionar_grafo((self.execucao_linha()), grafo)
+
+                elif ATIVIDADE == "COAUTORIA":
+                  
+                  txt = f.readlines()
+
+                  titulo = txt[0]
+                  # Segunda 'linha' contém o conteúdo do texto
+                  conteudo = txt[1]
+                  
+                  coautores = []
+                  # Terceira 'linha' contem uma lista com as palavras-chave
+                  palavras_chaves = txt[2].split(';')
+
+                  # Terceira 'linha' contem uma lista com as palavras-chave
+                  autores = txt[3].split(',')
+                  autor = autores[0]
+                  
+                  for idx in range (1, len(autores)) :
+                      coautores.append(autores[idx])
+                  
+                  self.adicionar_grafo((self.execucao_linha(autores)), grafo)
 
             self.grafos.append(grafo)
 
             self.resultado[nome_texto] = (
                 grafo.get_lista_topicos_importantes()
                 if ATIVIDADE == "TÓPICOS_RELEVANTES"
-                else grafo.get_lista_coautoria()
+                else (grafo.get_lista_coautoria() if ATIVIDADE == "COAUTORIA" else None)
             )
 
     def __str__(self) -> str:
@@ -47,7 +71,11 @@ class Tokens:
             string += "---------------------------------------------------------------------------\n"
             string += f"Texto -> {self.textos[idx]}          * {titulo_atividade} * \n"
             string += "---------------------------------------------------------------------------\n"
-            string += f"{grafo.get_lista_topicos_importantes() if ATIVIDADE == 'TÓPICOS_RELEVANTES' else grafo.get_lista_coautoria()}\n"
+            string += f"{(
+                grafo.get_lista_topicos_importantes()
+                if ATIVIDADE == "TÓPICOS_RELEVANTES"
+                else (grafo.get_lista_coautoria() if ATIVIDADE == "COAUTORIA" else None)
+            )}\n"
             string += "---------------------------------------------------------------------------\n\n"
 
         return string

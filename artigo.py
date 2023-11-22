@@ -1,9 +1,9 @@
 class Artigo:
-    def __init__(self, titulo, texto, autor, coautor):
-        self.titulo = titulo
-        self.texto = texto
+    def __init__(self, titulo:str, autor:str, coautores:list[str] ,descricao:str):
+        self.descricao = descricao
         self.autor = autor
-        self.coautor = coautor
+        self.coautores = coautores
+        self.titulo = titulo
 
     def __str__(self) -> str:
         return (
