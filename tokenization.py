@@ -2,12 +2,10 @@ import util
 import re
 from grafo import Grafo
 from vertice import Vertice
-from util import limpar_terminal
-from consts import ATIVIDADE
-
+from util import limpar_terminal, substituir_acentos
 
 class Tokens:
-    def __init__(self, textos: list, nome_pasta_arquivos: str) -> None:
+    def __init__(self, textos: list, nome_pasta_arquivos: str, artigos=[]) -> None:
         self.textos = textos
         self.nome_pasta_arquivos = nome_pasta_arquivos
         self.resultado = {}
@@ -18,44 +16,25 @@ class Tokens:
 
         for nome_texto in self.textos:
             grafo = Grafo()
+            
+            if nome_pasta_arquivos == "atividade1":
+                with open(
+                    f"textos/{nome_pasta_arquivos}/{nome_texto}", "r", encoding="ISO-8859-1"
+                ) as f:
 
-            with open(
-                f"textos/{nome_pasta_arquivos}/{nome_texto}", "r", encoding="ISO-8859-1"
-            ) as f:
+                    # le o arquivo e armazena em linha
+                    for line in f.readlines():
+                        self.adicionar_grafo((self.execucao_linha(line)), grafo)
 
-                if ATIVIDADE == "TÓPICOS_RELEVANTES":
-
-                # le o arquivo e armazena em linha
-                  for line in f.readlines():
-                    self.adicionar_grafo((self.execucao_linha()), grafo)
-
-                elif ATIVIDADE == "COAUTORIA":
-                  
-                  txt = f.readlines()
-
-                  titulo = txt[0]
-                  # Segunda 'linha' contém o conteúdo do texto
-                  conteudo = txt[1]
-                  
-                  coautores = []
-                  # Terceira 'linha' contem uma lista com as palavras-chave
-                  palavras_chaves = txt[2].split(';')
-
-                  # Terceira 'linha' contem uma lista com as palavras-chave
-                  autores = txt[3].split(',')
-                  autor = autores[0]
-                  
-                  for idx in range (1, len(autores)) :
-                      coautores.append(autores[idx])
-                  
-                  self.adicionar_grafo((self.execucao_linha(autores)), grafo)
+            elif nome_pasta_arquivos == "atividade2":
+                self.adicionar_grafo(re.split(" +", (substituir_acentos("_".join([" ".join(artigo.autores) for artigo in artigos])))), grafo)
 
             self.grafos.append(grafo)
 
             self.resultado[nome_texto] = (
                 grafo.get_lista_topicos_importantes()
-                if ATIVIDADE == "TÓPICOS_RELEVANTES"
-                else (grafo.get_lista_coautoria() if ATIVIDADE == "COAUTORIA" else None)
+                if nome_pasta_arquivos == "atividade1"
+                else (grafo.get_lista_coautoria() if nome_pasta_arquivos == "atividade2" else None)
             )
 
     def __str__(self) -> str:
@@ -63,7 +42,7 @@ class Tokens:
 
         titulo_atividade = (
             "Tópicos mais importantes"
-            if ATIVIDADE == "TÓPICOS_RELEVANTES"
+            if self.nome_pasta_arquivos == "atividade1"
             else "Rede de Coautoria"
         )
 
@@ -71,11 +50,7 @@ class Tokens:
             string += "---------------------------------------------------------------------------\n"
             string += f"Texto -> {self.textos[idx]}          * {titulo_atividade} * \n"
             string += "---------------------------------------------------------------------------\n"
-            string += f"{(
-                grafo.get_lista_topicos_importantes()
-                if ATIVIDADE == "TÓPICOS_RELEVANTES"
-                else (grafo.get_lista_coautoria() if ATIVIDADE == "COAUTORIA" else None)
-            )}\n"
+            string += f"{(grafo.get_lista_topicos_importantes() if self.nome_pasta_arquivos == 'atividade1' else (grafo.get_lista_coautoria() if self.nome_pasta_arquivos == 'atividade2' else None))}\n"
             string += "---------------------------------------------------------------------------\n\n"
 
         return string

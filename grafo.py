@@ -101,5 +101,5 @@ class Grafo:
 
         return lista
 
-    def get_lista_coautoria():
-        pass
+    def get_lista_coautoria(self):
+        return ["SADAS"]
