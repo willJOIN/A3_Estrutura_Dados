@@ -45,36 +45,14 @@ if __name__ == "__main__":
     #   atividade_topicos_relevantes()
     # elif '2' in user_input:
     #   atividade_coautoria()
+
     coautoria = atividade_coautoria()
 
-    colors = ["red"]
+    nodes = []
 
-    # ('la', 'Los Angeles', 34.03, -118.25),
-    # ('nyc', 'New York', 40.71, -74),
-    # ('to', 'Toronto', 43.65, -79.38),
-    # ('mtl', 'Montreal', 45.50, -73.57),
-    # ('van', 'Vancouver', 49.28, -123.12),
-    # ('chi', 'Chicago', 41.88, -87.63),
-    # ('bos', 'Boston', 42.36, -71.06),
-    # ('hou', 'Houston', 29.76, -95.37)
+    edges = []
 
-    nodes = [
-        # {
-        #     'data': {'id': short, 'label': label},
-        #     'position': {'x': 20 * lat, 'y': -20 * long}
-        # }
-        # for short, label, long, lat in [
-        #     (autor.lower(),autor,rd.uniform(28,60),rd.uniform(-70,-120)) for autor in coautoria.keys())
-        # ]
-    ]
-
-    edges = [
-        # {'data': {'source': source, 'target': target}}
-        # for source, target in [
-        # #   (autor,valores["coautores"][0]) for autor,valores in coautoria.items()
-        # ]
-    ]
-
+    pesos_arestas = {}
     pesos_vertices = {}
 
     for autor, valores in coautoria.items():
@@ -90,47 +68,59 @@ if __name__ == "__main__":
             nome_coautor = coautor["nome"]
             peso_aresta = coautor["peso"]  # possivelmente usado pra peso da aresta
 
+            pesos_arestas[autor] = peso_aresta
+
             if coautor not in nodes:
                 nodes.append(nome_coautor)
                 edges.append((autor.lower(), nome_coautor.lower()))
 
     nodes = [
         {
-            "data": {"id": short, "label": label, "size": size},
+            "data": {"id": short.replace(" ", "_"), "label": label, "size": size},
+            "classes": short.replace(" ", "_"),
         }
         for short, label, size in [
-            (autor.lower(), autor, pesos_vertices[autor]) for autor in nodes
+            (autor.lower(), autor, 3.5 * pesos_vertices[autor] + 50) for autor in nodes
         ]
     ]
 
     edges = [
-        {"data": {"source": source, "target": target}}
-        for source, target in [(aresta[0], aresta[1]) for aresta in edges]
+        {"data": {"source": source, "label": label, "target": target}}
+        for source, label, target in [
+            (
+                aresta[0].replace(" ", "_"),
+                str(pesos_arestas[autor]),
+                aresta[1].replace(" ", "_"),
+            )
+            for aresta in edges
+        ]
     ]
-
-    # ('van', 'la'),
-    # ('la', 'chi'),
-    # ('hou', 'chi'),
-    # ('to', 'mtl'),
-    # ('mtl', 'bos'),
-    # ('nyc', 'bos'),
-    # ('to', 'hou'),
-    # ('to', 'nyc'),
-    # ('la', 'nyc'),
-    # ('nyc', 'bos')
 
     default_stylesheet = [
         {
-            "selector": "node",
+            "selector": f".{node_id}",
             "style": {
-                "background-color": "#BFD7B5",
-                "label": "data(label)",
-                "width": "",
-                "height": "",
+                "background-color": "#{:06x}".format(rd.randint(0, 0xFFFFFF)),
+                "border-width": "2",
+                "width": "55px",
+                "height": "55px",
             },
-        },
-        {"selector": "edge", "style": {"line-color": "#A3C4BC"}},
+        }
+        for node_id in [(autor["classes"]) for autor in nodes]
     ]
+
+    stylesheet = [
+        {
+            "selector": "node",
+            "style": {"label": "data(label)"},
+        },
+        {
+            "selector": "edge",
+            "style": {"line-color": "#000000", "width": "1px", "label": "data(label)"},
+        },
+    ]
+
+    stylesheet.extend(default_stylesheet)
 
     elements = nodes + edges
 
@@ -142,14 +132,14 @@ if __name__ == "__main__":
                         id="cytoscape-callbacks-1",
                         elements=elements,
                         style={"width": "100%", "height": "70rem"},
-                        stylesheet=default_stylesheet,
+                        stylesheet=stylesheet,
                         layout={"name": "breadthfirst"},
                     ),
                     cyto.Cytoscape(
                         id="cytoscape-callbacks-2",
                         elements=elements,
                         style={"display": "none", "width": "100%", "height": "800px"},
-                        stylesheet=default_stylesheet,
+                        stylesheet=stylesheet,
                         layout={"name": "preset"},
                     ),
                 ]
@@ -162,11 +152,17 @@ if __name__ == "__main__":
                         style={"margin": "20px"},
                     ),
                 ],
-                style={"width":"100%","display": "flex","flex-direction":"column","align-items": "center"},
+                style={
+                    "width": "100%",
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "align-items": "center",
+                },
             ),
         ]
     )
 
+    # layouts disponiveis
     # preset
     # random
     # grid

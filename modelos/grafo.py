@@ -187,11 +187,12 @@ class Grafo:
 
             for aresta in arestas:
                 if palavras_dict.get(vertice.id):
-                    palavras_dict[vertice.id]["peso"] += aresta.peso
+                    
                     palavras_dict[vertice.id]["coautores"].append({"nome":aresta.y.id,"peso":aresta.y.peso})
                 else:
                     palavras_dict[vertice.id] = {"coautores":[{"nome":aresta.y.id,"peso":aresta.y.peso}],"peso":aresta.peso}
-
+        
+        palavras_dict[vertice.id]["peso"] = len(palavras_dict[vertice.id]["coautores"])
         coautoria = dict(sorted(palavras_dict.items(), key=lambda item: item[1]["peso"], reverse=True))
 
         return coautoria
