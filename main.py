@@ -7,6 +7,7 @@ from dash import Dash, Input, Output, callback, html
 from geral.avaliador import avaliar
 from geral.tokenization import Tokens
 from modelos.artigo import Artigo
+from modelos.autor_coautor import AutorCoautor
 
 app = Dash(__name__)
 
@@ -52,7 +53,6 @@ if __name__ == "__main__":
 
     edges = []
 
-    pesos_arestas = {}
     pesos_vertices = {}
 
     for autor, valores in coautoria.items():
@@ -66,113 +66,153 @@ if __name__ == "__main__":
 
         for coautor in coautores:
             nome_coautor = coautor["nome"]
-            peso_aresta = coautor["peso"]  # possivelmente usado pra peso da aresta
+            peso_aresta = coautor["peso"]
 
-            pesos_arestas[autor] = peso_aresta
-
-            if coautor not in nodes:
+            if nome_coautor not in nodes:
                 nodes.append(nome_coautor)
-                edges.append((autor.lower(), nome_coautor.lower()))
+
+            autor_coautor = AutorCoautor(
+                autor.lower().replace(" ", "_"),
+                nome_coautor.lower().replace(" ", "_"),
+                peso_aresta,
+            )
+
+            edges.append(autor_coautor)
 
     nodes = [
         {
-            "data": {"id": short.replace(" ", "_"), "label": label, "size": size},
-            "classes": short.replace(" ", "_"),
+            "data": {"id": short, "label": label},
+            "classes": short,
         }
-        for short, label, size in [
-            (autor.lower(), autor, 3.5 * pesos_vertices[autor] + 50) for autor in nodes
+        for short, label in [
+            (autor.lower().replace(" ", "_"), autor) for autor in nodes
         ]
     ]
 
     edges = [
-        {"data": {"source": source, "label": label, "target": target}}
-        for source, label, target in [
-            (
-                aresta[0].replace(" ", "_"),
-                str(pesos_arestas[autor]),
-                aresta[1].replace(" ", "_"),
-            )
-            for aresta in edges
+        {"data": {"source": source, "label": label, "target": target, "size": label}}
+        for source, target, label in [
+            (aresta.autor, aresta.coautor, aresta.peso_aresta) for aresta in edges
         ]
     ]
 
+    edges_repetidos = {}
+
+    for idx, edge in enumerate(edges):
+        autor_coautor = AutorCoautor(
+            edge["data"]["source"], edge["data"]["target"], int(edge["data"]["label"])
+        )
+
+        if autor_coautor not in edges_repetidos:
+            edges_repetidos[autor_coautor] = [idx, autor_coautor.peso_aresta]
+
+        else:
+            if autor_coautor.peso_aresta > edges_repetidos[autor_coautor][1]:
+                edges[edges_repetidos[autor_coautor][0]]["data"]["label"] = str(
+                    autor_coautor.peso_aresta
+                )
+                edges_repetidos[autor_coautor] = [idx, autor_coautor.peso_aresta]
+            else:
+                edges[idx]["data"]["label"] = str(edges_repetidos[autor_coautor][1])
+
     default_stylesheet = [
+        {
+            "selector": "node",
+            "style": {
+                "label": "data(label)",
+            },
+        },
+        {
+            "selector": "edge",
+            "style": {
+                "line-color": "#000000",
+                "width": "data(size)",
+                "label": "data(label)",
+                "color": "red",
+                "fontWeight": "bold",
+            },
+        },
+    ]
+
+    stylesheet = [
         {
             "selector": f".{node_id}",
             "style": {
                 "background-color": "#{:06x}".format(rd.randint(0, 0xFFFFFF)),
                 "border-width": "2",
-                "width": "55px",
-                "height": "55px",
+                "width": f"{3.5 * pesos_vertices[node_id.replace('_',' ').upper()] + 30}px",
+                "height": f"{3.5 * pesos_vertices[node_id.replace('_',' ').upper()] + 30}px",
             },
         }
         for node_id in [(autor["classes"]) for autor in nodes]
     ]
 
-    stylesheet = [
-        {
-            "selector": "node",
-            "style": {"label": "data(label)"},
-        },
-        {
-            "selector": "edge",
-            "style": {"line-color": "#000000", "width": "1px", "label": "data(label)"},
-        },
-    ]
-
     stylesheet.extend(default_stylesheet)
+
+    buttons_style = {"width":"8rem","height":"3rem"}
 
     elements = nodes + edges
 
     app.layout = html.Div(
         [
             html.Div(
+                "Grafo de Coautoria",
+                style={"margin": "20px","fontWeight":"bold","fontSize":"2rem"},
+            ),
+            html.Div(
                 [
                     cyto.Cytoscape(
                         id="cytoscape-callbacks-1",
                         elements=elements,
-                        style={"width": "100%", "height": "70rem"},
+                        style={"width": "100%", "height": "45rem"},
                         stylesheet=stylesheet,
                         layout={"name": "breadthfirst"},
                     ),
                     cyto.Cytoscape(
                         id="cytoscape-callbacks-2",
                         elements=elements,
-                        style={"display": "none", "width": "100%", "height": "800px"},
+                        style={"display": "none", "width": "100%", "height": "700px"},
                         stylesheet=stylesheet,
                         layout={"name": "preset"},
                     ),
-                ]
+                ],
+                style={
+                    "width": "95%",
+                    "border": "2px solid black",
+                    "borderRadius": "10px",
+                    "marginTop":"-2rem"
+                },
             ),
             html.Div(
                 [
-                    html.Button("Botao", id="button_1"),
-                    html.Div(
-                        "Grafo de Coautoria",
-                        style={"margin": "20px"},
-                    ),
+                    html.Button("Anterior", id="button_1",style=buttons_style),
+                    html.Button("Próxima", id="button_2",style=buttons_style),
                 ],
                 style={
                     "width": "100%",
                     "display": "flex",
-                    "flex-direction": "column",
-                    "align-items": "center",
+                    "justifyContent": "center",
+                    "gap":"2rem"
                 },
             ),
-        ]
+            # html.P(id="cytoscape-mouseoverNodeData-output"),
+        ],
+        style={
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "center",
+            "gap": "2rem",
+        },
     )
 
-    # layouts disponiveis
-    # preset
-    # random
-    # grid
-    # circle
-    # concentric
-    # breadthfirst
-    # cose
+    # for i in range(1, 2):
 
-    # @callback(Input('cytoscape-event-callbacks-1', 'tapNodeData'))
-    # def displayTapNodeData(data):
-    #     return json.dumps(data, indent=2)
+    #     @callback(
+    #         Output("cytoscape-mouseoverNodeData-output", "children"),
+    #         Input(f"cytoscape-callbacks-{i}", "mouseoverNodeData"),
+    #     )
+    #     def displayTapNodeData(data):
+    #         if data:
+    #             return "You recently hovered over the city: " + data["label"]
 
     app.run_server(debug=True)

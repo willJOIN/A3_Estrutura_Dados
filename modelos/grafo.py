@@ -192,7 +192,7 @@ class Grafo:
                 else:
                     palavras_dict[vertice.id] = {"coautores":[{"nome":aresta.y.id,"peso":aresta.y.peso}],"peso":aresta.peso}
         
-        palavras_dict[vertice.id]["peso"] = len(palavras_dict[vertice.id]["coautores"])
+            palavras_dict[vertice.id]["peso"] = len(palavras_dict[vertice.id]["coautores"])
         coautoria = dict(sorted(palavras_dict.items(), key=lambda item: item[1]["peso"], reverse=True))
 
         return coautoria
