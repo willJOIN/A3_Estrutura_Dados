@@ -27,8 +27,15 @@ pip install -r "requirements.txt"
 ```bash
 python main.py
 ```
+2 - Escolher atividade 1 (tópicos relevantes) ou 2 (coautoria)
 
-2 - Selecionar as palavras não relevantes, prosseguir ou refazer sua escolha até todos os textos serem lidos e a precisão e demais estatísticas serem retornadas. 
+### Tópicos relevantes
+
+Selecionar as palavras não relevantes, prosseguir ou refazer sua escolha até todos os textos serem lidos e a precisão e demais estatísticas serem retornadas. 
+
+### Coautoria
+
+É printado e gerado um grafo no localhost:8050 via Dash Cytoscape ilustrando relação de coautoria com cores aleatórias nos nodes e tamanho dos mesmos com base no peso.
 
 É possível limitar o main.py para ler menos arquivos.
 
