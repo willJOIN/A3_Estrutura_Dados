@@ -30,11 +30,10 @@ class Tokens:
 
                 self.resultado[nome_texto] = grafo.get_lista_topicos_importantes()
 
-                return
+            return
 
         elif nome_pasta_arquivos == "atividade2":
             grafo = Grafo()
-            
 
             self.adicionar_grafo(
                 [
@@ -47,6 +46,8 @@ class Tokens:
             self.resultado["*RESULTADO*"] = grafo.get_lista_coautoria()
 
     def __str__(self) -> str:
+        util.limpar_terminal()
+
         string = ""
 
         titulo_atividade = (

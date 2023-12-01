@@ -2,6 +2,7 @@ import os
 import re
 from parser.roman import rom_parse
 
+
 def criar_tabela_substituicao():
     chars_acentuados = "ÁÀÂÄÃÅĀÉÈÊËĒÍÌÎÏĪÓÒÔÖÕŌÚÙÛÜŪÇĆČÑŃŇÝŸŚŠŚŽŻŹ"
     chars = "AAAAAAAEEEEEIIIIIOOOOOUUUUUCCCNNNYYOSSSZZZ"
@@ -22,7 +23,7 @@ def remover_numeros_extenso(linha_numero_extenso):
     linha = linha_numero_extenso.split(" ")
     numeros_extenso = []
 
-    with open("numeros_extenso.txt", "r") as f:
+    with open("arquivos/numeros_extenso.txt", "r") as f:
         numeros_extenso = f.readlines()
 
     numeros_extenso = [numero.replace("\n", "").strip() for numero in numeros_extenso]
@@ -43,7 +44,7 @@ def remover_numeros_ordinais(linha_numeros_ordinais):
 
     ordinais = []
 
-    with open("numeros_ordinais.txt", "r") as f:
+    with open("arquivos/numeros_ordinais.txt", "r") as f:
         ordinais = f.readlines()
 
     ordinais = [numero.replace("\n", "").strip() for numero in ordinais]
@@ -104,7 +105,7 @@ def remover_stop_words(linha_crua):
         "Z"
     ]
 
-    with open("stop_words.txt", "r") as f:
+    with open("arquivos/stop_words.txt", "r") as f:
         for line in f.readlines():
             for stop_word in line.split(", "):
                 stop_words.append(substituir_acentos(stop_word.upper()))

@@ -1,4 +1,4 @@
-class AutorCoautor:
+class SourceTarget:
     def __init__(self, autor, coautor, peso_aresta):
         # lista de artigos
         self.autor = autor
@@ -18,7 +18,7 @@ class AutorCoautor:
         return hash((autores[0], autores[1]))
 
     def __eq__(self, obj: object) -> bool:
-        if isinstance(obj, AutorCoautor):
+        if isinstance(obj, SourceTarget):
             autores_obj = [obj.autor, obj.coautor]
             autores_self = [self.autor, self.coautor]
 
