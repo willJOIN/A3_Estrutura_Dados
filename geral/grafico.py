@@ -140,17 +140,29 @@ def plotar_topicos_relevantes(app, tokens):
     app.layout = html.Div(
         [
             html.Div(
-                [html.Span(
-                    f"Grafo de Tópicos: Arquivo '{tokens.textos[0]}'",
-                    id="grafo-titulo",
-                    style={"marginTop": "20px", "fontWeight": "bold", "fontSize": "2rem"},
-                ),
-                html.Span(
-                    f"* Tópicos Importantes * '{tokens.resultado[tokens.textos[0]]}'",
-                    id="grafo-topicos",
-                    style={"fontStyle": "italic", "fontSize": "1rem"},
-                )],
-                style={"marginBottom": "20px","display":"flex","flexDirection":"column","gap":"1rem","alignItems":"center"}
+                [
+                    html.Span(
+                        f"Grafo de Tópicos: Arquivo '{tokens.textos[0]}'",
+                        id="grafo-titulo",
+                        style={
+                            "marginTop": "20px",
+                            "fontWeight": "bold",
+                            "fontSize": "2rem",
+                        },
+                    ),
+                    html.Span(
+                        f"* Tópicos Importantes * '{tokens.resultado[tokens.textos[0]]}'",
+                        id="grafo-topicos",
+                        style={"fontStyle": "italic", "fontSize": "1rem"},
+                    ),
+                ],
+                style={
+                    "marginBottom": "20px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "gap": "1rem",
+                    "alignItems": "center",
+                },
             ),
             html.Div(
                 graficos,
@@ -183,7 +195,7 @@ def plotar_topicos_relevantes(app, tokens):
         },
     )
 
-    resultado = {chave:str(valor) for chave,valor in tokens.resultado.items()}
+    resultado = {chave: str(valor) for chave, valor in tokens.resultado.items()}
 
     app.clientside_callback(
         "function() {\n"
@@ -223,7 +235,7 @@ def plotar_topicos_relevantes(app, tokens):
         prevent_initial_call=True,
     )
 
-    app.run_server(debug=True,use_reloader=False)
+    app.run_server(debug=True, use_reloader=False)
 
 
 def plotar_coautoria(app, coautoria):
@@ -327,11 +339,39 @@ def plotar_coautoria(app, coautoria):
 
     elements = nodes + edges
 
+    resultado = [
+        f"({chave},{len(valor['coautores'])})" for chave, valor in coautoria.items()
+    ][:20]
+
     app.layout = html.Div(
         [
             html.Div(
-                "Grafo de Coautoria",
-                style={"margin": "20px", "fontWeight": "bold", "fontSize": "2rem"},
+                [
+                    html.Div(
+                        "Grafo de Coautoria",
+                        style={
+                            "margin": "20px",
+                            "fontWeight": "bold",
+                            "fontSize": "2rem",
+                        },
+                    ),
+                    html.Span(
+                        f"* Coautoria * '{resultado}'",
+                        id="grafo-topicos",
+                        style={
+                            "width": "90%",
+                            "fontStyle": "italic",
+                            "fontSize": "1rem",
+                        },
+                    ),
+                ],
+                style={
+                    "marginBottom": "20px",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "gap": "1rem",
+                    "alignItems": "center",
+                },
             ),
             html.Div(
                 [
@@ -359,4 +399,4 @@ def plotar_coautoria(app, coautoria):
         },
     )
 
-    app.run_server(debug=True,use_reloader=False)
+    app.run_server(debug=True, use_reloader=False)
