@@ -3,6 +3,8 @@ import re
 from parser.roman import rom_parse
 
 
+# pior caso: O(1)
+# melhor caso: Ω(1)
 def criar_tabela_substituicao():
     chars_acentuados = "ÁÀÂÄÃÅĀÉÈÊËĒÍÌÎÏĪÓÒÔÖÕŌÚÙÛÜŪÇĆČÑŃŇÝŸŚŠŚŽŻŹ"
     chars = "AAAAAAAEEEEEIIIIIOOOOOUUUUUCCCNNNYYOSSSZZZ"
@@ -14,11 +16,15 @@ def criar_tabela_substituicao():
     }
     return tabela
 
-
+# pior caso: O(1) -> embora uma palavra possa ser passada com n acentos fazendo assim com que o translate traduza n vezes,
+# esta função neste código está limitada a quantidade de acentos que as palavras stop_words, pré-definidas no arquivo
+# "stop_words.txt", possuem são limitadas a poucos acentos, fazendo assim com que essa função nunca seja O(n)
+# melhor caso: Ω(1) 
 def substituir_acentos(linha_com_acentos):
     return linha_com_acentos.translate(criar_tabela_substituicao())
 
-
+# pior caso: O(n) -> iteramos a quantidade de numeros em numeros_extensos e o tamanho da lista linha
+# melhor caso: Ω(n)
 def remover_numeros_extenso(linha_numero_extenso):
     linha = linha_numero_extenso.split(" ")
     numeros_extenso = []
@@ -37,7 +43,8 @@ def remover_numeros_extenso(linha_numero_extenso):
 
     return " ".join(linha)
 
-
+# pior caso: O(n)
+# melhor caso: Ω(n)
 def remover_numeros_ordinais(linha_numeros_ordinais):
     linha = linha_numeros_ordinais.split(" ")
     linha = [palavra for palavra in linha if "ESIMO" not in palavra]
@@ -58,7 +65,8 @@ def remover_numeros_ordinais(linha_numeros_ordinais):
 
     return " ".join(linha)
 
-
+# pior caso: O(n)
+# melhor caso: Ω(n)
 def remover_numeros_romanos(linha_com_romanos):
     linha = linha_com_romanos.split(" ")
 
@@ -72,6 +80,8 @@ def remover_numeros_romanos(linha_com_romanos):
     return " ".join(linha)
 
 
+# pior caso: O(n)
+# melhor caso: Ω(n)
 def remover_stop_words(linha_crua):
     linha = linha_crua.strip()
 
@@ -123,7 +133,8 @@ def remover_stop_words(linha_crua):
 
     return linha
 
-
+# pior caso: O(1)
+# melhor caso: Ω(1)
 def limpar_linha(linha_com_espacos):
     especiais = "°ªº!@#$%^&*\"()_+-=\{\}[]|:;\<>,.?/'"
     numeros = [str(valor) for valor in range(0, 10)]
@@ -138,7 +149,8 @@ def limpar_linha(linha_com_espacos):
 
     return linha.replace("\n", "").replace('"', "").upper()
 
-
+# pior caso: O(1)
+# melhor caso: Ω(1)
 def limpar_terminal():
     if os.name == "posix":
         os.system("clear")

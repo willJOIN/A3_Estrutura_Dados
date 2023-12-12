@@ -6,6 +6,9 @@ from geral.util import limpar_terminal, string_lista_identada
 
 
 class Avaliado:
+
+    # pior caso: O(1)
+    # melhor caso: Ω(1)
     def __init__(
         self,
         arquivo: str,
@@ -18,13 +21,20 @@ class Avaliado:
         self.topicos_relevantes: list[str] = relevantes
         self.topicos_nao_relevantes: list[str] = nao_relevantes
 
+    # pior caso: O(1)
+    # melhor caso: Ω(11)
     def __str__(self) -> str:
         return f"Arquivo: {self.arquivo}\nTópicos Encontrados: {self.topicos}\nRelevantes: {self.topicos_relevantes}\nNão Relevantes: {self.topicos_nao_relevantes}"
 
+    # pior caso: O(1)
+    # melhor caso: Ω(1)
     def __repr__(self) -> str:
         return str(self)
 
-
+# pior caso: 
+# A complexidade final é O (n + k + k.p.t) onde n é o número total de documentos,
+# k é a quantidade de documentos escolhida pelo usuário, p é o número médio de tokens por documento, e t é o número médio de tópicos por documento.
+# melhor caso: Ω(n)
 def avaliar(tokens_arquivos_dict: dict):
     avaliados = []
 
@@ -116,7 +126,8 @@ def avaliar(tokens_arquivos_dict: dict):
 
     gerar_estatisticas(avaliados)
 
-
+# A complexidade final é O(m⋅p⋅s), onde m é o número de elementos na lista avaliados, 
+# p é o número médio de tópicos por objeto Avaliado, s é o tamanho médio dos conjuntos de tópicos.
 def gerar_estatisticas(avaliados: list[Avaliado]):
     limpar_terminal()
     print("Gerando dados de avaliação...")

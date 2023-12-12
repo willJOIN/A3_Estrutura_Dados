@@ -5,6 +5,9 @@ from modelos.grafo import Grafo, Vertice
 
 
 class Tokens:
+
+    # pior caso: O(nm)
+    # melhor caso: Ω(nm)
     def __init__(self, textos: list, nome_pasta_arquivos: str, artigos=[]) -> None:
         self.textos = textos
         self.nome_pasta_arquivos = nome_pasta_arquivos
@@ -45,6 +48,8 @@ class Tokens:
             self.grafos.append(grafo)
             self.resultado["*RESULTADO*"] = grafo.get_lista_coautoria()
 
+    # pior caso: O(n)
+    # melhor caso: Ω(n)
     def __str__(self) -> str:
         util.limpar_terminal()
 
@@ -65,6 +70,8 @@ class Tokens:
 
         return string
 
+    # pior caso: O(nm) -> ja que a maior complexidade que temos dentro das funções em util é essa
+    # melhor caso: Ω(1)
     def execucao_linha(self, linha):
         linha_temp = util.limpar_linha(linha)
         linha_temp = util.substituir_acentos(linha_temp)
@@ -74,7 +81,9 @@ class Tokens:
         linha_temp = util.remover_numeros_ordinais(linha_temp)
 
         return re.split(" +", linha_temp)
-
+    
+    # pior caso: O(nm)
+    # melhor caso: Ω(nm)
     def execucao_linha_autores(self, artigos):
         todos_autores = " ".join(
             [
@@ -84,6 +93,8 @@ class Tokens:
         )
         return re.split(" +", util.substituir_acentos(todos_autores))
 
+    # pior caso: O(nm)
+    # melhor caso: Ω(nm)
     # adicionar vertices no grafo a partir de uma lista de palavras
     def adicionar_grafo(self, lista_palavras, graph: Grafo):
         for index in range(1, len(lista_palavras)):
