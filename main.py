@@ -11,6 +11,8 @@ from geral.util import limpar_terminal
 app = Dash(__name__)
 app.title = "A3 Análise e Est. Dados"
 
+# melhor e pior caso: O(nlogn) + O(nm) onde n é o número total de arquivos na pasta 
+# "textos/atividade1/" e m é a média de tópicos importantes ou coautoria por grafo.
 def atividade_topicos_relevantes(avaliar=False):
     textos = sorted(
         os.listdir("textos/atividade1/"),
@@ -27,7 +29,7 @@ def atividade_topicos_relevantes(avaliar=False):
 
     return tokens
 
-
+#melhor e pior caso: O(nlogn)+O(n⋅m)+O(m)
 def atividade_coautoria():
     textos = sorted(
         os.listdir("textos/atividade2/"),
@@ -43,6 +45,8 @@ def atividade_coautoria():
 def atividade_similaridade():
     pass
 
+#pior caso: O(nlogn)+O(n⋅m)+O(m)
+#melhor caso: O(nlogn) + O(nm)
 if __name__ == "__main__":
     limpar_terminal()
     print("Atividades A3 - Estrutura de Dados e Análise de Algoritmos:\n")

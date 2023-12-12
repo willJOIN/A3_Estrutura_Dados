@@ -10,7 +10,8 @@ SYMBOL_TABLE = {
     'm': 1000
 }
 
-
+# pior caso: O(1) ->> limitado pela quantidade de caracteres possíveis
+# melhor caso: Ω(1)
 def rom_parse(val):
   val = val.lower().strip()
   if val == 'n':

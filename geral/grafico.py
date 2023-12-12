@@ -5,7 +5,8 @@ from dash import Input, Output, html
 
 from modelos.autor_coautor import SourceTarget
 
-
+# pior caso: O(mno) -> o big O depende do numero de grafos (m), dos vertices em cada grafo (n) e das arestas de cada vertice(o)
+# melhor caso: Ω(mno)
 def plotar_topicos_relevantes(app, tokens):
     graficos = []
 
@@ -237,7 +238,8 @@ def plotar_topicos_relevantes(app, tokens):
 
     app.run_server(debug=True, use_reloader=False)
 
-
+# pior caso: O(mn)
+# melhor caso: Ω(mn)
 def plotar_coautoria(app, coautoria):
     nodes = []
     edges = []
